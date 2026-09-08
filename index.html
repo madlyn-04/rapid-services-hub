@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Rapid Services Hub | Chartered Accountants &amp; Financial Advisors</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet">
+  <style>
+    @layer base {
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        overscroll-behavior: none;
+      }
+
+      main>:first-child {
+        margin-top: 0 !important;
+      }
+
+      main>:last-child {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script
+    id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "secondary-container": "#fed255", "surface-tint": "#4d5f7d", "on-secondary-container": "#735a00", "on-secondary": "#ffffff", "tertiary-fixed": "#f1e2b0", "primary-container": "#0b1f3a", "on-tertiary": "#ffffff", "inverse-primary": "#b5c7ea", "surface-container": "#e5eeff", "on-tertiary-fixed-variant": "#504622", "on-error": "#ffffff", "on-surface": "#0b1c30", "surface-bright": "#f8f9ff", "on-primary-fixed": "#071c36", "error": "#ba1a1a", "on-secondary-fixed": "#241a00", "secondary-fixed": "#ffe08e", "on-secondary-fixed-variant": "#584400", "surface-container-high": "#dce9ff", "primary": "#000615", "primary-fixed-dim": "#b5c7ea", "on-primary-container": "#7587a7", "on-tertiary-container": "#483f1b", "secondary-fixed-dim": "#ecc246", "secondary": "#755b00", "outline": "#75777e", "on-surface-variant": "#44474d", "error-container": "#ffdad6", "surface-container-lowest": "#ffffff", "primary-fixed": "#d6e3ff", "on-tertiary-fixed": "#221b00", "on-background": "#0b1c30", "inverse-on-surface": "#eaf1ff", "tertiary-fixed-dim": "#d4c696", "surface-container-highest": "#d3e4fe", "background": "#f8f9ff", "tertiary-container": "#b8aa7d", "tertiary": "#695e37", "outline-variant": "#c4c6ce", "surface-dim": "#cbdbf5", "surface": "#f8f9ff", "surface-container-low": "#eff4ff", "surface-variant": "#d3e4fe", "inverse-surface": "#213145", "on-error-container": "#93000a", "on-primary-fixed-variant": "#364764", "on-primary": "#ffffff" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "gutter-mobile": "1rem", "space-xl": "2rem", "margin-mobile": "1rem", "space-lg": "1.5rem", "space-2xl": "3rem", "space-xs": "0.5rem", "margin-tablet": "2rem", "margin-desktop": "3rem", "space-2xs": "0.25rem", "gutter-tablet": "1.5rem", "space-md": "1rem", "space-sm": "0.75rem", "space-3xl": "4rem", "gutter-desktop": "2rem" }, fontFamily: { "headline-md": ["Plus Jakarta Sans"], "title-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "display-lg-mobile": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"] }, fontSize: { "headline-md": ["24px", { lineHeight: "32px", letterSpacing: "-0.015em", fontWeight: "600" }], "title-lg": ["18px", { lineHeight: "26px", letterSpacing: "-0.005em", fontWeight: "600" }], "body-sm": ["12px", { lineHeight: "18px", letterSpacing: "0.01em", fontWeight: "400" }], "display-lg-mobile": ["36px", { lineHeight: "44px", letterSpacing: "-0.02em", fontWeight: "700" }], "body-lg": ["16px", { lineHeight: "26px", letterSpacing: "0em", fontWeight: "400" }], "headline-sm": ["20px", { lineHeight: "28px", letterSpacing: "-0.01em", fontWeight: "600" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.04em", fontWeight: "600" }], "label-sm": ["10px", { lineHeight: "14px", letterSpacing: "0.06em", fontWeight: "700" }], "body-md": ["14px", { lineHeight: "22px", letterSpacing: "0em", fontWeight: "400" }], "headline-lg-mobile": ["26px", { lineHeight: "34px", letterSpacing: "-0.015em", fontWeight: "700" }], "headline-lg": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "700" }], "title-md": ["16px", { lineHeight: "24px", letterSpacing: "0em", fontWeight: "600" }], "display-lg": ["48px", { lineHeight: "56px", letterSpacing: "-0.025em", fontWeight: "700" }] } } } };</script>
+</head>
+
+<body class="bg-background font-body-md text-on-surface antialiased">
+  <header
+    class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md border-b border-outline-variant/60 shadow-[0_1px_3px_rgba(11,31,58,0.04)]">
+    <div
+      class="h-20 max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between gap-space-md">
+      <div class="flex flex-col"><span
+          class="font-title-md text-title-md tracking-tight text-primary font-bold leading-none">RAPID SERVICES
+          HUB</span><span
+          class="font-label-sm text-label-sm uppercase text-secondary tracking-widest leading-none mt-1">Chartered
+          Accountants &amp; Advisory</span></div>
+      <nav class="hidden xl:flex items-center gap-space-lg"><a
+          class="transition-colors py-1 text-primary font-title-md border-b-2 border-secondary pb-1"
+          href="#home">Home</a><a
+          class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-1"
+          href="#about">About</a><a
+          class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-1"
+          href="#services">Services</a><a
+          class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-1"
+          href="#industries">Industries</a><a
+          class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-1"
+          href="#approach">Our Approach</a><a
+          class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-1"
+          href="#team">Team</a><a
+          class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-1"
+          href="#faq">FAQ</a><a
+          class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-1"
+          href="#contact">Contact</a></nav>
+      <div class="flex items-center gap-space-md"><a
+          class="hidden sm:inline-flex items-center justify-center bg-primary-container text-on-primary font-title-md text-body-md px-space-lg py-2.5 rounded hover:bg-primary hover:text-on-primary border border-primary-container transition-all hover:border-secondary shadow-sm"
+          href="#contact"><span
+            class="material-symbols-outlined text-secondary mr-space-xs text-[18px]">verified</span>Get in Touch</a>
+        <details class="xl:hidden relative group">
+          <summary
+            class="list-none cursor-pointer p-2 rounded hover:bg-surface-container-high transition-colors flex items-center justify-center text-on-surface">
+            <span class="material-symbols-outlined">menu</span></summary>
+          <div
+            class="absolute right-0 mt-3 w-72 bg-surface-container-lowest border border-outline-variant rounded-xl shadow-xl p-space-md flex flex-col gap-space-sm z-50">
+            <a class="px-space-md py-2 text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded font-body-md transition-colors"
+              href="#home">Home</a><a
+              class="px-space-md py-2 text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded font-body-md transition-colors"
+              href="#about">About</a><a
+              class="px-space-md py-2 text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded font-body-md transition-colors"
+              href="#services">Services</a><a
+              class="px-space-md py-2 text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded font-body-md transition-colors"
+              href="#industries">Industries</a><a
+              class="px-space-md py-2 text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded font-body-md transition-colors"
+              href="#our-approach">Our Approach</a><a
+              class="px-space-md py-2 text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded font-body-md transition-colors"
+              href="#team">Team</a><a
+              class="px-space-md py-2 text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded font-body-md transition-colors"
+              href="#faq">FAQ</a><a
+              class="px-space-md py-2 text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded font-body-md transition-colors"
+              href="#contact">Contact</a>
+            <div class="pt-space-xs border-t border-outline-variant"><a
+                class="w-full flex items-center justify-center bg-primary-container text-on-primary py-2.5 rounded font-title-md text-body-md hover:bg-primary transition-all"
+                href="#contact">Get in Touch</a></div>
+          </div>
+        </details>
+      </div>
+    </div>
+  </header>
+  <main class="w-full pt-20 bg-background">
+    <div class="flex flex-col w-full">
+      <!-- HERO SECTION -->
+      <section
+        class="relative w-full overflow-hidden bg-primary min-h-[88vh] flex items-center py-space-2xl lg:py-space-3xl"
+        id="home">
+        <!-- Background image -->
+        <div class="absolute inset-0 z-0">
+          <img alt="Financial growth chart background" class="w-full h-full object-cover object-center"
+            src="hero-bg.png">
+          <!-- Gradient overlays for readability -->
+          <div class="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-primary/20"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent"></div>
+        </div>
+        <div
+          class="relative z-10 max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop w-full">
+          <div class="max-w-3xl flex flex-col items-start">
+            <div
+              class="inline-flex items-center gap-2 px-3 py-1 rounded bg-surface-container-high text-secondary text-label-sm font-label-sm uppercase tracking-widest mb-space-md shadow-sm">
+              <span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+              Chartered Accountants &amp; Strategic Advisory
+            </div>
+            <h1
+              class="font-display-lg text-display-lg text-on-primary tracking-tight font-bold mb-space-md leading-tight">
+              Clarity for Your Finances. <br class="hidden sm:inline">
+              <span class="text-secondary">Confidence</span> for Your Future.
+            </h1>
+            <p class="font-body-lg text-body-lg text-surface-container-highest max-w-xl mb-space-xl leading-relaxed">
+              Professional accounting, taxation, compliance and business advisory services designed to help individuals
+              and businesses make smarter financial decisions.
+            </p>
+            <div class="flex flex-wrap items-center gap-space-md">
+              <a class="inline-flex items-center justify-center bg-primary-container text-on-primary font-title-md text-title-md px-space-xl py-3.5 rounded shadow hover:bg-primary transition-all group"
+                href="#services">
+                Explore Our Services
+                <span
+                  class="material-symbols-outlined ml-2 text-secondary group-hover:translate-x-1 transition-transform text-[20px]">arrow_forward</span>
+              </a>
+              <a class="inline-flex items-center justify-center bg-surface-container-low text-primary font-title-md text-title-md px-space-lg py-3.5 rounded shadow-sm hover:bg-surface-container-high transition-all"
+                href="#contact">
+                Talk to an Expert
+              </a>
+            </div>
+            <!-- Proof Badges Micro Strip -->
+            <div
+              class="mt-space-xl pt-space-lg flex flex-wrap items-center gap-space-lg text-surface-bright text-body-sm font-body-sm">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-secondary text-[20px]">verified_user</span>
+                <span class="">ICAI Peer-Reviewed Standard</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-secondary text-[20px]">lock</span>
+                <span class="">Strict Legal Non-Disclosure</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-secondary text-[20px]">event_available</span>
+                <span class="">100% On-Time Filing Rate</span>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- TRUST / CREDIBILITY STRIP -->
+      <section class="w-full bg-surface-container-low py-space-lg shadow-sm">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter-mobile md:gap-gutter-tablet">
+            <!-- Item 1 -->
+            <div class="flex items-start gap-space-sm p-space-sm bg-surface-container-lowest rounded shadow-sm">
+              <div
+                class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center shrink-0 text-secondary">
+                <span class="material-symbols-outlined text-[22px]">shield</span>
+              </div>
+              <div>
+                <h3 class="font-title-md text-title-md text-primary font-bold">Professional Expertise</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Decades of cumulative ICAI fellowship
+                  across audit and strategic corporate tax.</p>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="flex items-start gap-space-sm p-space-sm bg-surface-container-lowest rounded shadow-sm">
+              <div
+                class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center shrink-0 text-secondary">
+                <span class="material-symbols-outlined text-[22px]">explore</span>
+              </div>
+              <div>
+                <h3 class="font-title-md text-title-md text-primary font-bold">Client-Focused Advisory</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Bespoke mandates tailored to exact
+                  corporate roadmaps and personal estates.</p>
+              </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="flex items-start gap-space-sm p-space-sm bg-surface-container-lowest rounded shadow-sm">
+              <div
+                class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center shrink-0 text-secondary">
+                <span class="material-symbols-outlined text-[22px]">verified</span>
+              </div>
+              <div>
+                <h3 class="font-title-md text-title-md text-primary font-bold">Confidential &amp; Ethical</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Institutional data protection governed
+                  by the highest ICAI ethical statutes.</p>
+              </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="flex items-start gap-space-sm p-space-sm bg-surface-container-lowest rounded shadow-sm">
+              <div
+                class="w-10 h-10 rounded bg-surface-container-high flex items-center justify-center shrink-0 text-secondary">
+                <span class="material-symbols-outlined text-[22px]">history_toggle_off</span>
+              </div>
+              <div>
+                <h3 class="font-title-md text-title-md text-primary font-bold">Timely Compliance</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Rigorous milestone calendars
+                  preventing late fees, audits, and statutory flags.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT THE FIRM -->
+      <section class="w-full py-space-3xl bg-surface" id="about">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+            <!-- Left Column: Editorial Card with Image -->
+            <div class="lg:col-span-5 relative">
+              <div class="relative rounded-xl overflow-hidden shadow-xl bg-surface-container-lowest">
+                <img alt="Senior Managing Partner Rajesh Sharma at Rapid Services Hub"
+                  class="w-full h-[460px] object-cover object-top"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOHgDSMLBfeadseWVmAwLFUr9mDPHgVpHDeb1W9LDOFf_IIwXgzSYrRHHpS56d2G7QRBj8pXkZkDrJ52vhLl61Ps8zRyBHbKSVYUd1m9vm6ss9BZplE6vDwWdEdxpgIBDgHPTwb4lWXThaI5gBIJ0pkPrfH8YZGkzdLQ7i8ZRH24_ICqBHCHtKVJpD_-5bK_uZEbl5iejj0pZ-Cdy0msObUwB2p3If-HxgPlJcODSqVEpKEO7y4Oev">
+                <!-- Pill Overlay -->
+                <div
+                  class="absolute bottom-6 left-6 right-6 p-space-md bg-primary-container/95 backdrop-blur-md rounded shadow-lg text-on-primary">
+                  <div class="flex items-center gap-2 mb-1">
+                    <span class="w-2 h-2 rounded-full bg-secondary"></span>
+                    <span
+                      class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Institutional
+                      Mandate</span>
+                  </div>
+                  <p class="font-body-sm text-body-sm italic text-surface-container-highest">"Delivering trust,
+                    precision, and enduring financial governance since inception."</p>
+                </div>
+                <!-- Founding Year Badge -->
+                <div
+                  class="absolute top-4 right-4 bg-secondary text-on-secondary px-3 py-1.5 rounded shadow font-label-md text-label-md uppercase tracking-widest font-bold">
+                  Est. Practice
+                </div>
+              </div>
+            </div>
+            <!-- Right Column: Narrative & Stats -->
+            <div class="lg:col-span-7 flex flex-col justify-center">
+              <span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold mb-2">ABOUT
+                RAPID SERVICES HUB</span>
+              <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-bold mb-space-md">
+                Expertise That Goes Beyond Numbers.
+              </h2>
+              <p class="font-body-lg text-body-lg text-on-surface-variant mb-space-md leading-relaxed">
+                Rapid Services Hub is a multi-disciplinary Chartered Accountancy and advisory practice headquartered in
+                Singapore with representations across central financial hubs. We fuse rigorous analytical auditing with
+                forward-looking corporate strategy.
+              </p>
+              <p class="font-body-md text-body-md text-on-surface-variant mb-space-lg leading-relaxed">
+                Our teams partner with fast-growing startups, manufacturing enterprises, high-net-worth families, and
+                cross-border conglomerates. We handle regulatory audits, intricate GST litigations, transfer pricing,
+                and comprehensive transaction structuring with precision.
+              </p>
+              <!-- Highlight Statement Block with Gold Accent Left Bar -->
+              <div class="p-space-md bg-surface-container-low rounded mb-space-xl">
+                <div class="pl-4 py-1 bg-surface-container-low">
+                  <p class="font-title-md text-title-md text-primary font-bold leading-snug">
+                    “We simplify complex financial matters so our clients can focus on what matters most: growing with
+                    confidence.”
+                  </p>
+                </div>
+              </div>
+              <!-- Key Statistics / Proof Markers -->
+              <div class="grid grid-cols-3 gap-space-md mb-space-lg">
+                <div class="p-space-sm bg-surface-container-lowest rounded shadow-sm">
+                  <span class="font-headline-md text-headline-md font-bold text-primary block">18+</span>
+                  <span class="font-body-sm text-body-sm text-on-surface-variant">Years Cumulative Leadership</span>
+                </div>
+                <div class="p-space-sm bg-surface-container-lowest rounded shadow-sm">
+                  <span class="font-headline-md text-headline-md font-bold text-primary block">99.4%</span>
+                  <span class="font-body-sm text-body-sm text-on-surface-variant">Annual Client Retention</span>
+                </div>
+                <div class="p-space-sm bg-surface-container-lowest rounded shadow-sm">
+                  <span class="font-headline-md text-headline-md font-bold text-secondary block">12+</span>
+                  <span class="font-body-sm text-body-sm text-on-surface-variant">Jurisdictions Advised</span>
+                </div>
+              </div>
+              <a class="inline-flex items-center font-title-md text-title-md text-primary hover:text-secondary transition-colors group"
+                href="#contact">
+                Learn More About Our Heritage
+                <span
+                  class="material-symbols-outlined ml-1.5 group-hover:translate-x-1 transition-transform text-[18px]">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SERVICES SECTION (Exactly 4 Cards) -->
+      <section class="w-full py-space-3xl bg-surface-container-low" id="services">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+          <div class="flex flex-col md:flex-row md:items-end justify-between mb-space-2xl">
+            <div class="max-w-2xl">
+              <span
+                class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold mb-2 block">PRACTICE
+                AREAS</span>
+              <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-bold mb-2">
+                Financial Expertise, All in One Place.
+              </h2>
+              <p class="font-body-lg text-body-lg text-on-surface-variant">
+                From statutory compliance to strategic advisory, our services are designed around the financial needs of
+                modern businesses and individuals.
+              </p>
+            </div>
+            <a class="mt-4 md:mt-0 inline-flex items-center text-secondary font-title-md text-title-md hover:underline"
+              href="#contact">
+              Request Service Prospectus →
+            </a>
+          </div>
+          <!-- 4 Cards Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop">
+            <!-- Card 01: Audit & Assurance -->
+            <div
+              class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between group">
+              <div>
+                <div class="flex items-center justify-between mb-space-md">
+                  <span class="font-headline-md text-headline-md font-bold text-secondary">01</span>
+                  <div
+                    class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+                    <span class="material-symbols-outlined text-[22px]">policy</span>
+                  </div>
+                </div>
+                <h3 class="font-title-lg text-title-lg text-primary font-bold mb-space-xs">Audit &amp; Assurance</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+                  Statutory audits, internal risk control assessments, transfer pricing reviews, and reliable financial
+                  reporting designed for institutional credibility.
+                </p>
+                <ul class="space-y-1.5 text-body-sm font-body-sm text-on-surface-variant mb-space-lg">
+                  <li class="flex items-center gap-1.5"><span
+                      class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Statutory &amp; Tax Audits</li>
+                  <li class="flex items-center gap-1.5"><span
+                      class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Internal Controls &amp; SOPs</li>
+                  <li class="flex items-center gap-1.5"><span
+                      class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Transfer Pricing Studies</li>
+                </ul>
+              </div>
+              <a class="inline-flex items-center font-title-md text-body-md text-primary group-hover:text-secondary transition-colors"
+                href="#contact">
+                Explore Service <span class="material-symbols-outlined ml-1 text-[16px]">arrow_forward</span>
+              </a>
+            </div>
+            <!-- Card 02: Taxation & GST -->
+            <div
+              class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between group">
+              <div>
+                <div class="flex items-center justify-between mb-space-md">
+                  <span class="font-headline-md text-headline-md font-bold text-secondary">02</span>
+                  <div
+                    class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+                    <span class="material-symbols-outlined text-[22px]">account_balance</span>
+                  </div>
+                </div>
+                <h3 class="font-title-lg text-title-lg text-primary font-bold mb-space-xs">Taxation &amp; GST</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+                  Comprehensive income tax filing, corporate tax strategy, GST audits, reconciliations, appeals, and
+                  cross-border compliance.
+                </p>
+                <ul class="space-y-1.5 text-body-sm font-body-sm text-on-surface-variant mb-space-lg">
+                  <li class="flex items-center gap-1.5"><span
+                      class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Corporate &amp; Direct Tax Filing</li>
+                  <li class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>GST
+                    Monthly Filing &amp; Audits</li>
+                  <li class="flex items-center gap-1.5"><span
+                      class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Scrutiny &amp; Assessment Defense</li>
+                </ul>
+              </div>
+              <a class="inline-flex items-center font-title-md text-body-md text-primary group-hover:text-secondary transition-colors"
+                href="#contact">
+                Explore Service <span class="material-symbols-outlined ml-1 text-[16px]">arrow_forward</span>
+              </a>
+            </div>
+            <!-- Card 03: Accounting & Compliance -->
+            <div
+              class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between group">
+              <div>
+                <div class="flex items-center justify-between mb-space-md">
+                  <span class="font-headline-md text-headline-md font-bold text-secondary">03</span>
+                  <div
+                    class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+                    <span class="material-symbols-outlined text-[22px]">receipt_long</span>
+                  </div>
+                </div>
+                <h3 class="font-title-lg text-title-lg text-primary font-bold mb-space-xs">Accounting &amp; Compliance
+                </h3>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+                  Full-suite bookkeeping, cloud accounting migrations, annual statutory filings, MCA ROC compliance, and
+                  payroll governance.
+                </p>
+                <ul class="space-y-1.5 text-body-sm font-body-sm text-on-surface-variant mb-space-lg">
+                  <li class="flex items-center gap-1.5"><span
+                      class="w-1.5 h-1.5 rounded-full bg-secondary"></span>End-to-End Bookkeeping</li>
+                  <li class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>ROC
+                    &amp; Company Law Filings</li>
+                  <li class="flex items-center gap-1.5"><span
+                      class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Automated Payroll &amp; TDS</li>
+                </ul>
+              </div>
+              <a class="inline-flex items-center font-title-md text-body-md text-primary group-hover:text-secondary transition-colors"
+                href="#contact">
+                Explore Service <span class="material-symbols-outlined ml-1 text-[16px]">arrow_forward</span>
+              </a>
+            </div>
+            <!-- Card 04: Business Advisory -->
+            <div
+              class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-lg transition-all flex flex-col justify-between group">
+              <div>
+                <div class="flex items-center justify-between mb-space-md">
+                  <span class="font-headline-md text-headline-md font-bold text-secondary">04</span>
+                  <div
+                    class="w-10 h-10 rounded bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+                    <span class="material-symbols-outlined text-[22px]">trending_up</span>
+                  </div>
+                </div>
+                <h3 class="font-title-lg text-title-lg text-primary font-bold mb-space-xs">Business Advisory</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+                  Capital structuring, Fractional CFO advisory, enterprise valuation, M&amp;A due diligence, and
+                  predictive financial forecasting.
+                </p>
+                <ul class="space-y-1.5 text-body-sm font-body-sm text-on-surface-variant mb-space-lg">
+                  <li class="flex items-center gap-1.5"><span
+                      class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Virtual CFO Retainers</li>
+                  <li class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Due
+                    Diligence &amp; Valuation</li>
+                  <li class="flex items-center gap-1.5"><span
+                      class="w-1.5 h-1.5 rounded-full bg-secondary"></span>Fundraising Prep &amp; Modeling</li>
+                </ul>
+              </div>
+              <a class="inline-flex items-center font-title-md text-body-md text-primary group-hover:text-secondary transition-colors"
+                href="#contact">
+                Explore Service <span class="material-symbols-outlined ml-1 text-[16px]">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CLIENT TYPES / WHO WE SERVE (All 8 Categories) -->
+      <section class="w-full py-space-3xl bg-surface" id="industries">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+          <div class="text-center max-w-2xl mx-auto mb-space-2xl">
+            <span
+              class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold mb-2 block">SECTORS
+              &amp; PROFILES</span>
+            <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-bold mb-space-xs">
+              Built Around Your Financial Needs.
+            </h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Every entity requires distinct accounting architecture. Discover how our advisory practice serves your
+              exact operational profile.
+            </p>
+          </div>
+          <!-- 8 Client Cards Grid with interactive click states -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md" id="clientGrid">
+            <!-- 1. Startups -->
+            <div
+              class="client-card p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all cursor-pointer group"
+              onclick="selectClientCard(this)">
+              <div
+                class="w-8 h-8 rounded bg-surface-container flex items-center justify-center text-primary mb-space-sm group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                <span class="material-symbols-outlined text-[20px]">rocket_launch</span>
+              </div>
+              <h3 class="font-title-md text-title-md font-bold text-primary mb-1">Startups</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">“Build the right financial foundation.”</p>
+              <span class="mt-space-sm inline-block font-label-sm text-label-sm text-secondary font-bold">Cap table,
+                ESOPs &amp; 80-IAC filings</span>
+            </div>
+            <!-- 2. Small & Medium Businesses -->
+            <div
+              class="client-card p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all cursor-pointer group"
+              onclick="selectClientCard(this)">
+              <div
+                class="w-8 h-8 rounded bg-surface-container flex items-center justify-center text-primary mb-space-sm group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                <span class="material-symbols-outlined text-[20px]">store</span>
+              </div>
+              <h3 class="font-title-md text-title-md font-bold text-primary mb-1">Small &amp; Medium Businesses</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">“Stay compliant while you grow.”</p>
+              <span class="mt-space-sm inline-block font-label-sm text-label-sm text-secondary font-bold">Cash flow
+                controls &amp; tax optimization</span>
+            </div>
+            <!-- 3. Corporates -->
+            <div
+              class="client-card p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all cursor-pointer group"
+              onclick="selectClientCard(this)">
+              <div
+                class="w-8 h-8 rounded bg-surface-container flex items-center justify-center text-primary mb-space-sm group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                <span class="material-symbols-outlined text-[20px]">domain</span>
+              </div>
+              <h3 class="font-title-md text-title-md font-bold text-primary mb-1">Corporates</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">“Robust audit governance &amp; risk control.”
+              </p>
+              <span class="mt-space-sm inline-block font-label-sm text-label-sm text-secondary font-bold">Multi-entity
+                consolidation &amp; ICFR</span>
+            </div>
+            <!-- 4. Professionals -->
+            <div
+              class="client-card p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all cursor-pointer group"
+              onclick="selectClientCard(this)">
+              <div
+                class="w-8 h-8 rounded bg-surface-container flex items-center justify-center text-primary mb-space-sm group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                <span class="material-symbols-outlined text-[20px]">badge</span>
+              </div>
+              <h3 class="font-title-md text-title-md font-bold text-primary mb-1">Professionals</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">“Optimized personal tax &amp; asset
+                accounting.”</p>
+              <span class="mt-space-sm inline-block font-label-sm text-label-sm text-secondary font-bold">Presumptive
+                tax 44ADA &amp; portfolio audit</span>
+            </div>
+            <!-- 5. Individuals -->
+            <div
+              class="client-card p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all cursor-pointer group"
+              onclick="selectClientCard(this)">
+              <div
+                class="w-8 h-8 rounded bg-surface-container flex items-center justify-center text-primary mb-space-sm group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                <span class="material-symbols-outlined text-[20px]">family_restroom</span>
+              </div>
+              <h3 class="font-title-md text-title-md font-bold text-primary mb-1">Individuals</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">“Wealth preservation &amp; tax returns.”</p>
+              <span class="mt-space-sm inline-block font-label-sm text-label-sm text-secondary font-bold">Capital gains,
+                estate planning &amp; HNIs</span>
+            </div>
+            <!-- 6. Entrepreneurs -->
+            <div
+              class="client-card p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all cursor-pointer group"
+              onclick="selectClientCard(this)">
+              <div
+                class="w-8 h-8 rounded bg-surface-container flex items-center justify-center text-primary mb-space-sm group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                <span class="material-symbols-outlined text-[20px]">lightbulb</span>
+              </div>
+              <h3 class="font-title-md text-title-md font-bold text-primary mb-1">Entrepreneurs</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">“Strategic entity structuring &amp; growth
+                advisory.”</p>
+              <span class="mt-space-sm inline-block font-label-sm text-label-sm text-secondary font-bold">LLP vs Pvt Ltd
+                tax parity</span>
+            </div>
+            <!-- 7. Retail & Trading -->
+            <div
+              class="client-card p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all cursor-pointer group"
+              onclick="selectClientCard(this)">
+              <div
+                class="w-8 h-8 rounded bg-surface-container flex items-center justify-center text-primary mb-space-sm group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                <span class="material-symbols-outlined text-[20px]">shopping_cart</span>
+              </div>
+              <h3 class="font-title-md text-title-md font-bold text-primary mb-1">Retail &amp; Trading</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">“Streamlined GST reconciliation &amp;
+                inventory accounting.”</p>
+              <span class="mt-space-sm inline-block font-label-sm text-label-sm text-secondary font-bold">E-invoicing,
+                ITC matching &amp; margins</span>
+            </div>
+            <!-- 8. Technology Businesses -->
+            <div
+              class="client-card p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all cursor-pointer group"
+              onclick="selectClientCard(this)">
+              <div
+                class="w-8 h-8 rounded bg-surface-container flex items-center justify-center text-primary mb-space-sm group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+                <span class="material-symbols-outlined text-[20px]">terminal</span>
+              </div>
+              <h3 class="font-title-md text-title-md font-bold text-primary mb-1">Technology Businesses</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">“Transfer pricing, R&amp;D credits &amp; SaaS
+                revenue recognition.”</p>
+              <span class="mt-space-sm inline-block font-label-sm text-label-sm text-secondary font-bold">IndAS 115
+                &amp; cross-border withholding</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- OUR APPROACH (Horizontal Process Timeline 01 - 05) -->
+      <!-- OUR APPROACH / METHODOLOGY -->
+      <section class="relative w-full py-space-3xl overflow-hidden" id="approach" style="background-color: #faf8f3;">
+        <!-- Decorative circle flourish top-right -->
+        <div class="absolute top-0 right-0 w-72 h-72 pointer-events-none" aria-hidden="true">
+          <svg viewBox="0 0 280 280" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full opacity-10">
+            <circle cx="200" cy="80" r="120" stroke="#755b00" stroke-width="1.5"/>
+            <circle cx="200" cy="80" r="80" stroke="#755b00" stroke-width="1"/>
+            <circle cx="200" cy="80" r="40" stroke="#755b00" stroke-width="0.8"/>
+          </svg>
+        </div>
+
+        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop relative z-10">
+
+          <!-- Header -->
+          <div class="text-center max-w-2xl mx-auto mb-16">
+            <!-- Eyebrow label with decorative lines -->
+            <div class="flex items-center justify-center gap-4 mb-5">
+              <div class="h-px w-12 bg-secondary opacity-60"></div>
+              <span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary font-bold">Our Approach</span>
+              <div class="h-px w-12 bg-secondary opacity-60"></div>
+            </div>
+            <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-bold mb-4 leading-snug">
+              A Simple Approach to<br>Complex Financial Matters<span class="text-secondary">.</span>
+            </h2>
+            <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              We follow a structured, transparent and collaborative process to ensure<br class="hidden md:inline"> practical solutions and long-term value for our clients.
+            </p>
+          </div>
+
+          <!-- Timeline Steps -->
+          <div class="relative">
+            <!-- Dashed connector line (desktop only) -->
+            <div class="hidden md:block absolute" style="top: 68px; left: calc(10% + 32px); right: calc(10% + 32px); height: 2px;">
+              <svg width="100%" height="4" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="2" x2="100%" y2="2" stroke="#b5a06a" stroke-width="1.5" stroke-dasharray="6 5"/>
+                <!-- Gold dots at quarter intervals -->
+                <circle cx="25%" cy="2" r="4" fill="#755b00"/>
+                <circle cx="50%" cy="2" r="4" fill="#755b00"/>
+                <circle cx="75%" cy="2" r="4" fill="#755b00"/>
+              </svg>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+
+              <!-- Step 01: Understand (dark filled) -->
+              <div class="flex flex-col items-center text-center relative">
+                <span class="font-body-sm text-body-sm font-semibold mb-3" style="color: #c9bfa0;">01</span>
+                <div class="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-md z-10 relative" style="background-color: #0b1f3a;">
+                  <svg class="w-7 h-7" fill="none" stroke="#fed255" stroke-width="1.6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
+                  </svg>
+                </div>
+                <!-- Down arrow -->
+                <svg class="w-4 h-4 mb-3" fill="none" stroke="#0b1f3a" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                <h3 class="font-title-md text-title-md font-bold text-primary mb-2">Understand</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
+                  We understand your goals, challenges and specific financial requirements.
+                </p>
+                <div class="h-0.5 w-8 rounded" style="background-color: #b5a06a;"></div>
+              </div>
+
+              <!-- Step 02: Analyse (light outlined) -->
+              <div class="flex flex-col items-center text-center relative">
+                <span class="font-body-sm text-body-sm font-semibold mb-3" style="color: #c9bfa0;">02</span>
+                <div class="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-sm z-10 relative border-2" style="background-color: #f5efe0; border-color: #c9b06a;">
+                  <svg class="w-7 h-7" fill="none" stroke="#755b00" stroke-width="1.6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/>
+                  </svg>
+                </div>
+                <svg class="w-4 h-4 mb-3" fill="none" stroke="#0b1f3a" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                <h3 class="font-title-md text-title-md font-bold text-primary mb-2">Analyse</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
+                  We assess your current financial position and compliance status.
+                </p>
+                <div class="h-0.5 w-8 rounded" style="background-color: #b5a06a;"></div>
+              </div>
+
+              <!-- Step 03: Advise (dark filled) -->
+              <div class="flex flex-col items-center text-center relative">
+                <span class="font-body-sm text-body-sm font-semibold mb-3" style="color: #c9bfa0;">03</span>
+                <div class="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-md z-10 relative" style="background-color: #0b1f3a;">
+                  <svg class="w-7 h-7" fill="none" stroke="#fed255" stroke-width="1.6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                  </svg>
+                </div>
+                <svg class="w-4 h-4 mb-3" fill="none" stroke="#0b1f3a" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                <h3 class="font-title-md text-title-md font-bold text-primary mb-2">Advise</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
+                  We provide practical, defensible and transparent recommendations.
+                </p>
+                <div class="h-0.5 w-8 rounded" style="background-color: #b5a06a;"></div>
+              </div>
+
+              <!-- Step 04: Execute (light outlined) -->
+              <div class="flex flex-col items-center text-center relative">
+                <span class="font-body-sm text-body-sm font-semibold mb-3" style="color: #c9bfa0;">04</span>
+                <div class="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-sm z-10 relative border-2" style="background-color: #f5efe0; border-color: #c9b06a;">
+                  <svg class="w-7 h-7" fill="none" stroke="#755b00" stroke-width="1.6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                  </svg>
+                </div>
+                <svg class="w-4 h-4 mb-3" fill="none" stroke="#0b1f3a" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                <h3 class="font-title-md text-title-md font-bold text-primary mb-2">Execute</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
+                  We help implement the required financial workflows and complete statutory filings.
+                </p>
+                <div class="h-0.5 w-8 rounded" style="background-color: #b5a06a;"></div>
+              </div>
+
+              <!-- Step 05: Support (dark filled) -->
+              <div class="flex flex-col items-center text-center relative">
+                <span class="font-body-sm text-body-sm font-semibold mb-3" style="color: #c9bfa0;">05</span>
+                <div class="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-md z-10 relative" style="background-color: #0b1f3a;">
+                  <svg class="w-7 h-7" fill="none" stroke="#fed255" stroke-width="1.6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                  </svg>
+                </div>
+                <svg class="w-4 h-4 mb-3" fill="none" stroke="#0b1f3a" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                <h3 class="font-title-md text-title-md font-bold text-primary mb-2">Support</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
+                  We remain actively available as your business and fiscal needs continuously evolve.
+                </p>
+                <div class="h-0.5 w-8 rounded" style="background-color: #b5a06a;"></div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Closing tagline -->
+          <div class="mt-14 flex items-center justify-center gap-6">
+            <div class="h-px flex-1 max-w-xs" style="background: linear-gradient(to right, transparent, #b5a06a);"></div>
+            <p class="font-body-lg text-body-lg italic font-medium" style="color: #755b00; font-family: Georgia, serif;">Your Goals. Our Guidance. A Stronger Tomorrow.</p>
+            <div class="h-px flex-1 max-w-xs" style="background: linear-gradient(to left, transparent, #b5a06a);"></div>
+          </div>
+
+        </div>
+      </section>
+      <!-- TEAM SECTION -->
+      <section class="w-full py-space-3xl bg-surface" id="team">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+          <div class="text-center max-w-2xl mx-auto mb-space-2xl">
+            <span
+              class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold mb-2 block">LEADERSHIP</span>
+            <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-bold mb-space-xs">
+              Meet the People Behind the Expertise.
+            </h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Qualified Chartered Accountants with decades of institutional advisory experience, leading every client
+              mandate directly.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter-desktop max-w-4xl mx-auto">
+            <!-- Partner 1: Rajesh Sharma -->
+            <div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-lg group flex flex-col">
+              <div class="overflow-hidden h-72 bg-surface-container">
+                <img alt="Rajesh Sharma, FCA - Senior Managing Partner"
+                  class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOHgDSMLBfeadseWVmAwLFUr9mDPHgVpHDeb1W9LDOFf_IIwXgzSYrRHHpS56d2G7QRBj8pXkZkDrJ52vhLl61Ps8zRyBHbKSVYUd1m9vm6ss9BZplE6vDwWdEdxpgIBDgHPTwb4lWXThaI5gBIJ0pkPrfH8YZGkzdLQ7i8ZRH24_ICqBHCHtKVJpD_-5bK_uZEbl5iejj0pZ-Cdy0msObUwB2p3If-HxgPlJcODSqVEpKEO7y4Oev">
+              </div>
+              <div class="p-space-lg flex-1 flex flex-col justify-between">
+                <div>
+                  <div class="flex items-center justify-between mb-1">
+                    <h3 class="font-headline-sm text-headline-sm font-bold text-primary">Rajesh Sharma, FCA</h3>
+                    <span
+                      class="font-label-sm text-label-sm text-secondary bg-surface-container px-2 py-0.5 rounded font-bold uppercase tracking-wider">Fellow
+                      ICAI</span>
+                  </div>
+                  <p class="font-title-md text-title-md text-secondary font-semibold mb-space-sm">Senior Managing
+                    Partner</p>
+                  <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+                    18+ years of expertise in Corporate Taxation, Statutory Audits, and M&amp;A Due Diligence. Advisor
+                    to high-growth tech platforms and established mid-market enterprises across western India.
+                  </p>
+                </div>
+                <div
+                  class="pt-space-sm border-t border-outline-variant/30 flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+                  <span class="">Practicing CA Reg: #054892</span>
+                  <a class="text-primary hover:text-secondary font-title-md inline-flex items-center" href="#contact">
+                    Contact <span class="material-symbols-outlined ml-1 text-[16px]">mail</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Partner 2: Pooja Mehta -->
+            <div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-lg group flex flex-col">
+              <div class="overflow-hidden h-72 bg-surface-container">
+                <img alt="Pooja Mehta, ACA - Partner Regulatory Compliance"
+                  class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbFIHL_vSjLBs1__SXr959OelW-SUayIrnsknCoURMkCxQzttztIpsBcKTfaA77JkD34LvtAzOLH12LlZ0Wt_b5dOT20M645H0tMy8l6IE7ztJIe0i8mQpIBp_4RYPyqIK655RqCR5NjLiXQA_gJDwg2UAuUYJOwetSB5xxi_tklHMeN2B1NMSEKdcTL1PAkS8EAnBlNKHwF79ZG8B0py8ue5OVmP-VSg1pfr0-IQmq-iVVHlxXOjX">
+              </div>
+              <div class="p-space-lg flex-1 flex flex-col justify-between">
+                <div>
+                  <div class="flex items-center justify-between mb-1">
+                    <h3 class="font-headline-sm text-headline-sm font-bold text-primary">Pooja Mehta, ACA</h3>
+                    <span
+                      class="font-label-sm text-label-sm text-secondary bg-surface-container px-2 py-0.5 rounded font-bold uppercase tracking-wider">Member
+                      ICAI</span>
+                  </div>
+                  <p class="font-title-md text-title-md text-secondary font-semibold mb-space-sm">Partner — Regulatory
+                    &amp; International Tax</p>
+                  <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+                    12+ years of institutional advisory experience. Former Big 4 tax specialist focused on cross-border
+                    transactions, transfer pricing defense, complex GST litigations, and FEMA compliances.
+                  </p>
+                </div>
+                <div
+                  class="pt-space-sm border-t border-outline-variant/30 flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+                  <span class="">Practicing CA Reg: #078120</span>
+                  <a class="text-primary hover:text-secondary font-title-md inline-flex items-center" href="#contact">
+                    Contact <span class="material-symbols-outlined ml-1 text-[16px]">mail</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TESTIMONIALS SECTION -->
+      <section class="w-full py-space-3xl bg-surface-container-low" id="testimonials">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+          <div class="text-center max-w-2xl mx-auto mb-space-2xl">
+            <span
+              class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold mb-2 block">CLIENT
+              VOICES</span>
+            <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-bold mb-space-xs">
+              Trusted by Clients. Proven Through Relationships.
+            </h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              What founders, CFOs, and enterprise directors say about partnering with Rapid Services Hub.
+            </p>
+          </div>
+          <!-- Testimonial Carousel Card -->
+          <div class="max-w-3xl mx-auto bg-surface-container-lowest p-space-xl rounded-xl shadow-lg relative">
+            <div class="text-secondary font-serif text-6xl leading-none select-none mb-space-xs">“</div>
+            <div class="min-h-[140px] flex flex-col justify-center" id="testimonialContainer">
+              <p class="font-title-lg text-headline-sm text-primary font-semibold leading-snug mb-space-md transition-opacity duration-300"
+                id="testimonialQuote">Transparent, proactive, and exceptionally prompt. Every compliance deadline has
+                been met flawlessly for five consecutive years.</p>
+              <div>
+                <span class="font-title-md text-title-md text-primary font-bold block" id="testimonialAuthor">Arvind
+                  Singhania</span>
+                <span class="font-body-sm text-body-sm text-on-surface-variant" id="testimonialRole">Managing Director,
+                  Crestline Logistics</span>
+              </div>
+            </div>
+            <!-- Controls & Indicators -->
+            <div class="flex items-center justify-between mt-space-lg pt-space-md border-t border-outline-variant/30">
+              <div class="flex items-center gap-2">
+                <button aria-label="Quote 1"
+                  class="test-dot w-3 h-3 rounded-full bg-surface-container-highest hover:bg-secondary transition-all"
+                  onclick="setTestimonial(0)"></button>
+                <button aria-label="Quote 2"
+                  class="test-dot w-3 h-3 rounded-full bg-surface-container-highest hover:bg-secondary transition-all"
+                  onclick="setTestimonial(1)"></button>
+                <button aria-label="Quote 3" class="test-dot w-3 h-3 rounded-full bg-secondary transition-all"
+                  onclick="setTestimonial(2)"></button>
+              </div>
+              <div class="flex items-center gap-2">
+                <button aria-label="Previous quote"
+                  class="w-9 h-9 rounded bg-surface-container flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-colors"
+                  onclick="prevTestimonial()">
+                  <span class="material-symbols-outlined text-[18px]">chevron_left</span>
+                </button>
+                <button aria-label="Next quote"
+                  class="w-9 h-9 rounded bg-surface-container flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-colors"
+                  onclick="nextTestimonial()">
+                  <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ SECTION -->
+      <section class="w-full py-space-3xl bg-surface" id="faq">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+          <div class="text-center max-w-2xl mx-auto mb-space-2xl">
+            <span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold mb-2 block">QUICK
+              ANSWERS</span>
+            <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-bold mb-space-xs">
+              Questions, Answered.
+            </h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Clear, upfront clarity on our advisory models, engagement protocols, and turnaround times.
+            </p>
+          </div>
+          <div class="max-w-3xl mx-auto space-y-space-sm">
+            <!-- FAQ 1 -->
+            <div
+              class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden border border-outline-variant/30">
+              <button
+                class="w-full px-space-lg py-space-md text-left flex items-center justify-between gap-space-md group"
+                onclick="toggleFaq(this)">
+                <span
+                  class="font-title-md text-title-md font-bold text-primary group-hover:text-secondary transition-colors">What
+                  services does Rapid Services Hub provide?</span>
+                <span class="material-symbols-outlined text-secondary transition-transform duration-300 text-[22px]"
+                  style="transform: rotate(0deg);">add</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 px-space-lg"
+                style="max-height: 0px;">
+                <p class="font-body-md text-body-md text-on-surface-variant pb-space-md leading-relaxed">
+                  We provide comprehensive Chartered Accountancy solutions including Statutory and Tax Audits, Direct
+                  &amp; Indirect Taxation (GST), Transfer Pricing, MCA Company Secretarial compliances, Bookkeeping,
+                  Virtual CFO mandates, and M&amp;A Due Diligence.
+                </p>
+              </div>
+            </div>
+            <!-- FAQ 2 -->
+            <div
+              class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden border border-outline-variant/30">
+              <button
+                class="w-full px-space-lg py-space-md text-left flex items-center justify-between gap-space-md group"
+                onclick="toggleFaq(this)">
+                <span
+                  class="font-title-md text-title-md font-bold text-primary group-hover:text-secondary transition-colors">Do
+                  you provide GST and corporate taxation services?</span>
+                <span class="material-symbols-outlined text-secondary transition-transform duration-300 text-[22px]"
+                  style="transform: rotate(0deg);">add</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 px-space-lg"
+                style="max-height: 0px;">
+                <p class="font-body-md text-body-md text-on-surface-variant pb-space-md leading-relaxed">
+                  Yes, extensively. We handle monthly/quarterly GST returns (GSTR-1, 3B, 9C), Input Tax Credit
+                  reconciliations, Advance Rulings, Faceless Income Tax assessments, corporate tax structuring, and
+                  representation before appellate authorities.
+                </p>
+              </div>
+            </div>
+            <!-- FAQ 3 -->
+            <div
+              class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden border border-outline-variant/30">
+              <button
+                class="w-full px-space-lg py-space-md text-left flex items-center justify-between gap-space-md group"
+                onclick="toggleFaq(this)">
+                <span
+                  class="font-title-md text-title-md font-bold text-primary group-hover:text-secondary transition-colors">Do
+                  you work with early-stage startups and small businesses?</span>
+                <span class="material-symbols-outlined text-secondary transition-transform duration-300 text-[22px]"
+                  style="transform: rotate(0deg);">add</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 px-space-lg"
+                style="max-height: 0px;">
+                <p class="font-body-md text-body-md text-on-surface-variant pb-space-md leading-relaxed">
+                  Yes. We have structured startup-focused retainer packages covering company incorporation, DPIIT
+                  recognition, 80-IAC tax holiday applications, ESOP valuations, and investor cap table reporting.
+                </p>
+              </div>
+            </div>
+            <!-- FAQ 4 -->
+            <div
+              class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden border border-outline-variant/30">
+              <button
+                class="w-full px-space-lg py-space-md text-left flex items-center justify-between gap-space-md group"
+                onclick="toggleFaq(this)">
+                <span
+                  class="font-title-md text-title-md font-bold text-primary group-hover:text-secondary transition-colors">Can
+                  individuals avail your taxation and estate services?</span>
+                <span class="material-symbols-outlined text-secondary transition-transform duration-300 text-[22px]"
+                  style="transform: rotate(0deg);">add</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 px-space-lg"
+                style="max-height: 0px;">
+                <p class="font-body-md text-body-md text-on-surface-variant pb-space-md leading-relaxed">
+                  Certainly. We advise professionals, executives, and high-net-worth individuals on complex capital
+                  gains calculations (equity, real estate, crypto), foreign asset disclosures (Schedule FA), and family
+                  trust formations.
+                </p>
+              </div>
+            </div>
+            <!-- FAQ 5 -->
+            <div
+              class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden border border-outline-variant/30">
+              <button
+                class="w-full px-space-lg py-space-md text-left flex items-center justify-between gap-space-md group"
+                onclick="toggleFaq(this)">
+                <span
+                  class="font-title-md text-title-md font-bold text-primary group-hover:text-secondary transition-colors">How
+                  can I schedule a consultation?</span>
+                <span class="material-symbols-outlined text-secondary transition-transform duration-300 text-[22px]"
+                  style="transform: rotate(0deg);">add</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 px-space-lg"
+                style="max-height: 0px;">
+                <p class="font-body-md text-body-md text-on-surface-variant pb-space-md leading-relaxed">
+                  You can submit the enquiry form below or reach our secretarial desk directly via phone or email. We
+                  will arrange a confidential introductory call with the respective practice Partner.
+                </p>
+              </div>
+            </div>
+            <!-- FAQ 6 -->
+            <div
+              class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden border border-outline-variant/30">
+              <button
+                class="w-full px-space-lg py-space-md text-left flex items-center justify-between gap-space-md group"
+                onclick="toggleFaq(this)">
+                <span
+                  class="font-title-md text-title-md font-bold text-primary group-hover:text-secondary transition-colors">How
+                  quickly can I expect a response to my enquiry?</span>
+                <span class="material-symbols-outlined text-secondary transition-transform duration-300 text-[22px]"
+                  style="transform: rotate(0deg);">add</span>
+              </button>
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 px-space-lg"
+                style="max-height: 0px;">
+                <p class="font-body-md text-body-md text-on-surface-variant pb-space-md leading-relaxed">
+                  All client enquiries receive a formal response within 24 business hours. For urgent audit notices or
+                  assessment deadlines, we activate our priority review protocol.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FINAL CTA + CONTACT FORM SECTION -->
+      <section class="w-full py-space-3xl bg-primary-container text-on-primary" id="contact">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+            <!-- Left: Pitch & Coordinates -->
+            <div class="lg:col-span-5 flex flex-col justify-center">
+              <span
+                class="font-label-md text-label-md uppercase tracking-wider text-secondary-fixed font-bold mb-space-xs block">LET'S
+                TALK</span>
+              <h2
+                class="font-headline-lg text-headline-lg text-on-primary tracking-tight font-bold mb-space-md leading-tight">
+                Have a Financial Question? <br>
+                Let’s Find the Right Answer.
+              </h2>
+              <p class="font-body-lg text-body-lg text-on-primary-container mb-space-xl leading-relaxed">
+                Tell us what you need help with and our team of senior Chartered Accountants will get back to you within
+                24 hours.
+              </p>
+              <div class="space-y-space-md text-body-md font-body-md text-on-primary-container">
+                <div class="flex items-start gap-space-sm">
+                  <span class="material-symbols-outlined text-secondary-fixed text-[22px] shrink-0 mt-0.5">mail</span>
+                  <div>
+                    <span class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed">Direct
+                      Email</span>
+                    <span class="text-on-primary font-medium">contact@rapidserviceshub.com</span>
+                  </div>
+                </div>
+                <div class="flex items-start gap-space-sm">
+                  <span class="material-symbols-outlined text-secondary-fixed text-[22px] shrink-0 mt-0.5">call</span>
+                  <div>
+                    <span
+                      class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed">Advisory
+                      Desk</span>
+                    <span class="text-on-primary font-medium">+91 (022) 4920-8800 / +91 (011) 2930-4400</span>
+                  </div>
+                </div>
+                <div class="flex items-start gap-space-sm">
+                  <span
+                    class="material-symbols-outlined text-secondary-fixed text-[22px] shrink-0 mt-0.5">pin_drop</span>
+                  <div>
+                    <span
+                      class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed">Principal
+                      Locations</span>
+                    <span class="text-on-primary font-medium">Nariman Point, Mumbai &amp; Barakhamba Road, New
+                      Delhi</span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mt-space-xl p-space-sm bg-on-primary-fixed rounded border border-outline/20 flex items-center gap-3">
+                <span class="material-symbols-outlined text-secondary-fixed text-[24px]">verified</span>
+                <span class="text-body-sm font-body-sm text-on-primary-container">
+                  All consultations are protected by attorney-client grade ICAI professional confidentiality.
+                </span>
+              </div>
+            </div>
+            <!-- Right: Crisp White Elevated Form -->
+            <div class="lg:col-span-7">
+              <div class="bg-surface-container-lowest text-on-surface p-space-xl rounded-xl shadow-2xl relative">
+                <!-- Form Success Banner (Hidden by default) -->
+                <div
+                  class="hidden p-space-md mb-space-md bg-surface-container text-on-surface rounded flex items-start gap-3"
+                  id="formSuccessBanner">
+                  <span class="material-symbols-outlined text-secondary text-[24px] shrink-0 mt-0.5">check_circle</span>
+                  <div>
+                    <h4 class="font-title-md text-title-md font-bold text-primary">Enquiry Submitted Successfully</h4>
+                    <p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Thank you. Your enquiry has been
+                      received. A senior advisor will contact you shortly.</p>
+                  </div>
+                </div>
+                <form class="space-y-space-md" id="advisoryForm" onsubmit="handleFormSubmit(event)">
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+                    <!-- Name -->
+                    <div>
+                      <label
+                        class="block font-label-md text-label-md uppercase tracking-wider text-on-surface-variant mb-1 font-semibold"
+                        for="fullName">Full Name *</label>
+                      <input
+                        class="w-full h-11 px-3 bg-surface text-on-surface rounded border border-outline-variant focus:outline-none focus:border-primary font-body-md text-body-md transition-colors"
+                        id="fullName" placeholder="e.g. Anand Mahindra" required="" type="text">
+                    </div>
+                    <!-- Email -->
+                    <div>
+                      <label
+                        class="block font-label-md text-label-md uppercase tracking-wider text-on-surface-variant mb-1 font-semibold"
+                        for="emailAddress">Email Address *</label>
+                      <input
+                        class="w-full h-11 px-3 bg-surface text-on-surface rounded border border-outline-variant focus:outline-none focus:border-primary font-body-md text-body-md transition-colors"
+                        id="emailAddress" placeholder="name@company.com" required="" type="email">
+                    </div>
+                  </div>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+                    <!-- Phone -->
+                    <div>
+                      <label
+                        class="block font-label-md text-label-md uppercase tracking-wider text-on-surface-variant mb-1 font-semibold"
+                        for="phoneNumber">Phone Number *</label>
+                      <input
+                        class="w-full h-11 px-3 bg-surface text-on-surface rounded border border-outline-variant focus:outline-none focus:border-primary font-body-md text-body-md transition-colors"
+                        id="phoneNumber" placeholder="+91 98200 00000" required="" type="tel">
+                    </div>
+                    <!-- Query Type Dropdown -->
+                    <div>
+                      <label
+                        class="block font-label-md text-label-md uppercase tracking-wider text-on-surface-variant mb-1 font-semibold"
+                        for="serviceType">Service / Query Type *</label>
+                      <select
+                        class="w-full h-11 px-3 bg-surface text-on-surface rounded border border-outline-variant focus:outline-none focus:border-primary font-body-md text-body-md transition-colors"
+                        id="serviceType" required="">
+                        <option disabled="" selected="" value="">Select practice area</option>
+                        <option value="Audit &amp; Assurance">Audit &amp; Assurance</option>
+                        <option value="Taxation &amp; GST">Taxation &amp; GST</option>
+                        <option value="Accounting &amp; Compliance">Accounting &amp; Compliance</option>
+                        <option value="Business Advisory">Business Advisory</option>
+                        <option value="Other Financial Enquiry">Other Financial Enquiry</option>
+                      </select>
+                    </div>
+                  </div>
+                  <!-- Message -->
+                  <div>
+                    <label
+                      class="block font-label-md text-label-md uppercase tracking-wider text-on-surface-variant mb-1 font-semibold"
+                      for="userQuery">Your Query / Details</label>
+                    <textarea
+                      class="w-full p-3 bg-surface text-on-surface rounded border border-outline-variant focus:outline-none focus:border-primary font-body-md text-body-md transition-colors resize-none"
+                      id="userQuery"
+                      placeholder="Briefly describe your business structure, statutory requirement, or immediate tax milestone..."
+                      rows="4"></textarea>
+                  </div>
+                  <!-- Reassurance note -->
+                  <p class="font-body-sm text-body-sm text-on-surface-variant">
+                    Your information is kept strictly confidential and used only to respond to your enquiry.
+                  </p>
+                  <!-- Submit Button -->
+                  <button
+                    class="w-full h-12 bg-primary-container text-on-primary hover:bg-primary font-title-md text-title-md rounded flex items-center justify-center gap-2 transition-all shadow-md group"
+                    id="submitBtn" type="submit">
+                    <span id="btnText" class="">Send Enquiry</span>
+                    <span
+                      class="material-symbols-outlined text-secondary group-hover:translate-x-1 transition-transform text-[20px]"
+                      id="btnIcon">arrow_forward</span>
+                    <span
+                      class="hidden w-5 h-5 border-2 border-secondary border-t-transparent rounded-full animate-spin"
+                      id="btnSpinner"></span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- MICRO-INTERACTIONS SCRIPT -->
+      <script>
+        // Testimonial Data
+        const testimonials = [
+          {
+            quote: "Rapid Services Hub transformed our financial compliance during our Series A round. Their tax planning saved us months of rework.",
+            author: "Vikramaditya Sen",
+            role: "CEO, NexaPay Fintech"
+          },
+          {
+            quote: "Unrivaled expertise in GST and corporate restructuring. They are not just accountants, they are trusted board-level advisors.",
+            author: "Sunita Deshmukh",
+            role: "Director, AURA Engineering"
+          },
+          {
+            quote: "Transparent, proactive, and exceptionally prompt. Every compliance deadline has been met flawlessly for five consecutive years.",
+            author: "Arvind Singhania",
+            role: "Managing Director, Crestline Logistics"
+          }
+        ];
+
+        let currentTestimonial = 0;
+
+        function renderTestimonial() {
+          const q = document.getElementById("testimonialQuote");
+          const a = document.getElementById("testimonialAuthor");
+          const r = document.getElementById("testimonialRole");
+          const dots = document.querySelectorAll(".test-dot");
+
+          if (q && a && r) {
+            q.classList.add("opacity-0");
+            setTimeout(() => {
+              q.innerText = testimonials[currentTestimonial].quote;
+              a.innerText = testimonials[currentTestimonial].author;
+              r.innerText = testimonials[currentTestimonial].role;
+              q.classList.remove("opacity-0");
+            }, 150);
+          }
+
+          dots.forEach((dot, idx) => {
+            if (idx === currentTestimonial) {
+              dot.className = "test-dot w-3 h-3 rounded-full bg-secondary transition-all";
+            } else {
+              dot.className = "test-dot w-3 h-3 rounded-full bg-surface-container-highest hover:bg-secondary transition-all";
+            }
+          });
+        }
+
+        function nextTestimonial() {
+          currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+          renderTestimonial();
+        }
+
+        function prevTestimonial() {
+          currentTestimonial = (currentTestimonial - 1 + testimonials.length) % testimonials.length;
+          renderTestimonial();
+        }
+
+        function setTestimonial(idx) {
+          currentTestimonial = idx;
+          renderTestimonial();
+        }
+
+        // FAQ Accordion
+        function toggleFaq(btn) {
+          const answer = btn.nextElementSibling;
+          const icon = btn.querySelector(".material-symbols-outlined");
+          const isOpen = answer.style.maxHeight && answer.style.maxHeight !== "0px";
+
+          // Close all
+          document.querySelectorAll(".faq-answer").forEach(el => el.style.maxHeight = "0px");
+          document.querySelectorAll("#faq .material-symbols-outlined").forEach(el => {
+            el.innerText = "add";
+            el.style.transform = "rotate(0deg)";
+          });
+
+          if (!isOpen) {
+            answer.style.maxHeight = answer.scrollHeight + "px";
+            icon.innerText = "remove";
+            icon.style.transform = "rotate(180deg)";
+          }
+        }
+
+        // Client Category Cards Selection
+        function selectClientCard(card) {
+          document.querySelectorAll(".client-card").forEach(c => {
+            c.classList.remove("bg-primary-container", "text-on-primary");
+            c.classList.add("bg-surface-container-lowest", "text-on-surface");
+            const title = c.querySelector("h3");
+            const desc = c.querySelector("p");
+            if (title) { title.classList.remove("text-on-primary"); title.classList.add("text-primary"); }
+            if (desc) { desc.classList.remove("text-surface-container-highest"); desc.classList.add("text-on-surface-variant"); }
+          });
+
+          card.classList.remove("bg-surface-container-lowest", "text-on-surface");
+          card.classList.add("bg-primary-container", "text-on-primary");
+          const title = card.querySelector("h3");
+          const desc = card.querySelector("p");
+          if (title) { title.classList.remove("text-primary"); title.classList.add("text-on-primary"); }
+          if (desc) { desc.classList.remove("text-on-surface-variant"); desc.classList.add("text-surface-container-highest"); }
+        }
+
+        // Form Handling Simulation
+        function handleFormSubmit(e) {
+          e.preventDefault();
+          const btn = document.getElementById("submitBtn");
+          const btnText = document.getElementById("btnText");
+          const btnIcon = document.getElementById("btnIcon");
+          const btnSpinner = document.getElementById("btnSpinner");
+          const banner = document.getElementById("formSuccessBanner");
+
+          btn.disabled = true;
+          btnText.innerText = "Transmitting Details...";
+          btnIcon.classList.add("hidden");
+          btnSpinner.classList.remove("hidden");
+
+          setTimeout(() => {
+            btn.disabled = false;
+            btnText.innerText = "Send Enquiry";
+            btnIcon.classList.remove("hidden");
+            btnSpinner.classList.add("hidden");
+
+            banner.classList.remove("hidden");
+            document.getElementById("advisoryForm").reset();
+
+            setTimeout(() => {
+              banner.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 100);
+          }, 1200);
+        }
+      </script>
+    </div>
+  </main>
+  <footer class="w-full bg-primary-container text-surface-bright border-t-2 border-secondary mt-space-3xl">
+    <div
+      class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop pt-space-3xl pb-space-2xl">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter-desktop">
+        <div class="lg:col-span-4 space-y-space-md">
+          <div class="flex items-center gap-space-sm">
+            <div class="p-1.5 bg-surface-container-lowest rounded"><img alt="Rapid Services Hub Logo"
+                class="h-6 w-auto object-contain"
+                src="https://lh3.googleusercontent.com/aida/AEtjO1XcmJRveSRxPC03BJRNj-CSNL0CnJqdNsF4cyQNQfzd4E6TD4MhtbmAMBCgaXCRYFMRARA-fo7LMGWbDWkiMRLY3gDiir4QrvZHg-7NMKpi-vtumIV-Ya2fS3Jam0QptbVsjzZfDZ96J7VvRSyDaxelJEsR0J15ywfCPQwYOXgk_FUz3YBlRyjEozeeW1RlqzdfzOkM63yJJlZzwMawUTthoNHxK8UFPVzIvfYliUiMaGOSPtfEtTAEbNU">
+            </div><span class="font-title-lg text-title-lg text-on-primary tracking-tight font-bold">Rapid Services
+              Hub</span>
+          </div>
+          <p class="font-body-md text-body-md text-on-primary-container leading-relaxed">Institutional-grade Chartered
+            Accountancy, audit assurance, corporate taxation, and strategic transaction advisory tailored to sovereign
+            enterprises, private equity, and executive family offices.</p>
+          <div class="flex items-center gap-space-xs"><span
+              class="inline-flex items-center px-2 py-1 rounded bg-on-primary-fixed text-secondary-fixed text-label-sm font-label-sm border border-secondary/30 uppercase tracking-widest">ICAI
+              Registered</span><span
+              class="inline-flex items-center px-2 py-1 rounded bg-on-primary-fixed text-secondary-fixed text-label-sm font-label-sm border border-secondary/30 uppercase tracking-widest">Peer
+              Reviewed Firm</span></div>
+        </div>
+        <div class="lg:col-span-4 lg:col-start-9 space-y-space-md">
+          <h4 class="font-label-md text-label-md uppercase tracking-wider text-secondary-fixed font-bold">Principal
+            Offices</h4>
+          <div class="space-y-space-sm font-body-md text-body-md text-on-primary-container">
+            <div class="flex items-start gap-space-xs"><span
+                class="material-symbols-outlined text-secondary text-[20px] shrink-0 mt-0.5">corporate_fare</span>
+              <p class="">Executive Suite 1400, Financial District Towers, Nariman Point, Mumbai 400021</p>
+            </div>
+            <div class="flex items-center gap-space-xs"><span
+                class="material-symbols-outlined text-secondary text-[20px] shrink-0">call</span>
+              <p class="">+91 (022) 4890 1200 / +91 (011) 2930 4400</p>
+            </div>
+            <div class="flex items-center gap-space-xs"><span
+                class="material-symbols-outlined text-secondary text-[20px] shrink-0">mail</span>
+              <p class="">secretariat@rapidserviceshub.com</p>
+            </div>
+          </div>
+          <div class="pt-space-xs"></div>
+        </div>
+      </div>
+      <div
+        class="mt-space-2xl pt-space-lg border-t border-outline/20 flex flex-col md:flex-row items-center justify-between gap-space-md text-on-primary-container font-body-sm text-body-sm">
+        <p class="">© 2025 Rapid Services Hub. All rights reserved. Operating in conformity with ICAI Code of Ethics.
+        </p>
+        <div class="flex items-center gap-space-lg text-secondary-fixed"><a
+            class="hover:text-on-primary transition-colors" href="#">Regulatory Disclosures</a><a
+            class="hover:text-on-primary transition-colors" href="#">ICAI Compliance</a><a
+            class="hover:text-on-primary transition-colors" href="#">Terms of Mandate</a><a
+            class="hover:text-on-primary transition-colors" href="#">Privacy Framework</a></div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
