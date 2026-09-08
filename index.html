@@ -7,42 +7,17 @@
   <title>Rapid Services Hub | Chartered Accountants &amp; Financial Advisors</title>
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
     rel="stylesheet">
-  <style>
-    @layer base {
-
-      html,
-      body {
-        margin: 0;
-        padding: 0;
-      }
-
-      body {
-        overscroll-behavior: none;
-      }
-
-      main>:first-child {
-        margin-top: 0 !important;
-      }
-
-      main>:last-child {
-        margin-bottom: 0 !important;
-      }
-    }
-
-    ::-webkit-scrollbar {
-      display: none;
-    }
-  </style>
+  <link href="styles.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-  <script
-    id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "secondary-container": "#fed255", "surface-tint": "#4d5f7d", "on-secondary-container": "#735a00", "on-secondary": "#ffffff", "tertiary-fixed": "#f1e2b0", "primary-container": "#0b1f3a", "on-tertiary": "#ffffff", "inverse-primary": "#b5c7ea", "surface-container": "#e5eeff", "on-tertiary-fixed-variant": "#504622", "on-error": "#ffffff", "on-surface": "#0b1c30", "surface-bright": "#f8f9ff", "on-primary-fixed": "#071c36", "error": "#ba1a1a", "on-secondary-fixed": "#241a00", "secondary-fixed": "#ffe08e", "on-secondary-fixed-variant": "#584400", "surface-container-high": "#dce9ff", "primary": "#000615", "primary-fixed-dim": "#b5c7ea", "on-primary-container": "#7587a7", "on-tertiary-container": "#483f1b", "secondary-fixed-dim": "#ecc246", "secondary": "#755b00", "outline": "#75777e", "on-surface-variant": "#44474d", "error-container": "#ffdad6", "surface-container-lowest": "#ffffff", "primary-fixed": "#d6e3ff", "on-tertiary-fixed": "#221b00", "on-background": "#0b1c30", "inverse-on-surface": "#eaf1ff", "tertiary-fixed-dim": "#d4c696", "surface-container-highest": "#d3e4fe", "background": "#f8f9ff", "tertiary-container": "#b8aa7d", "tertiary": "#695e37", "outline-variant": "#c4c6ce", "surface-dim": "#cbdbf5", "surface": "#f8f9ff", "surface-container-low": "#eff4ff", "surface-variant": "#d3e4fe", "inverse-surface": "#213145", "on-error-container": "#93000a", "on-primary-fixed-variant": "#364764", "on-primary": "#ffffff" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "gutter-mobile": "1rem", "space-xl": "2rem", "margin-mobile": "1rem", "space-lg": "1.5rem", "space-2xl": "3rem", "space-xs": "0.5rem", "margin-tablet": "2rem", "margin-desktop": "3rem", "space-2xs": "0.25rem", "gutter-tablet": "1.5rem", "space-md": "1rem", "space-sm": "0.75rem", "space-3xl": "4rem", "gutter-desktop": "2rem" }, fontFamily: { "headline-md": ["Plus Jakarta Sans"], "title-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "display-lg-mobile": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"] }, fontSize: { "headline-md": ["24px", { lineHeight: "32px", letterSpacing: "-0.015em", fontWeight: "600" }], "title-lg": ["18px", { lineHeight: "26px", letterSpacing: "-0.005em", fontWeight: "600" }], "body-sm": ["12px", { lineHeight: "18px", letterSpacing: "0.01em", fontWeight: "400" }], "display-lg-mobile": ["36px", { lineHeight: "44px", letterSpacing: "-0.02em", fontWeight: "700" }], "body-lg": ["16px", { lineHeight: "26px", letterSpacing: "0em", fontWeight: "400" }], "headline-sm": ["20px", { lineHeight: "28px", letterSpacing: "-0.01em", fontWeight: "600" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.04em", fontWeight: "600" }], "label-sm": ["10px", { lineHeight: "14px", letterSpacing: "0.06em", fontWeight: "700" }], "body-md": ["14px", { lineHeight: "22px", letterSpacing: "0em", fontWeight: "400" }], "headline-lg-mobile": ["26px", { lineHeight: "34px", letterSpacing: "-0.015em", fontWeight: "700" }], "headline-lg": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "700" }], "title-md": ["16px", { lineHeight: "24px", letterSpacing: "0em", fontWeight: "600" }], "display-lg": ["48px", { lineHeight: "56px", letterSpacing: "-0.025em", fontWeight: "700" }] } } } };</script>
+  <script src="script.js" data-tailwind-config></script>
 </head>
 
 <body class="bg-background font-body-md text-on-surface antialiased">
@@ -79,7 +54,8 @@
         <details class="xl:hidden relative group">
           <summary
             class="list-none cursor-pointer p-2 rounded hover:bg-surface-container-high transition-colors flex items-center justify-center text-on-surface">
-            <span class="material-symbols-outlined">menu</span></summary>
+            <span class="material-symbols-outlined">menu</span>
+          </summary>
           <div
             class="absolute right-0 mt-3 w-72 bg-surface-container-lowest border border-outline-variant rounded-xl shadow-xl p-space-md flex flex-col gap-space-sm z-50">
             <a class="px-space-md py-2 text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded font-body-md transition-colors"
@@ -223,81 +199,141 @@
         </div>
       </section>
       <!-- ABOUT THE FIRM -->
-      <section class="w-full py-space-3xl bg-surface" id="about">
-        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
-            <!-- Left Column: Editorial Card with Image -->
-            <div class="lg:col-span-5 relative">
-              <div class="relative rounded-xl overflow-hidden shadow-xl bg-surface-container-lowest">
-                <img alt="Senior Managing Partner Rajesh Sharma at Rapid Services Hub"
-                  class="w-full h-[460px] object-cover object-top"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOHgDSMLBfeadseWVmAwLFUr9mDPHgVpHDeb1W9LDOFf_IIwXgzSYrRHHpS56d2G7QRBj8pXkZkDrJ52vhLl61Ps8zRyBHbKSVYUd1m9vm6ss9BZplE6vDwWdEdxpgIBDgHPTwb4lWXThaI5gBIJ0pkPrfH8YZGkzdLQ7i8ZRH24_ICqBHCHtKVJpD_-5bK_uZEbl5iejj0pZ-Cdy0msObUwB2p3If-HxgPlJcODSqVEpKEO7y4Oev">
-                <!-- Pill Overlay -->
+      <section class="w-full py-space-3xl bg-surface relative overflow-hidden" id="about">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop relative">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+            <!-- Left Column: 18+ Years Badge with Circular Accent -->
+            <div class="lg:col-span-5 relative flex flex-col justify-center py-6">
+              <!-- Decorative Circular Arc & Ring -->
+              <div
+                class="absolute right-0 top-1/2 -translate-y-1/2 w-[340px] h-[340px] md:w-[400px] md:h-[400px] rounded-full border-[24px] md:border-[30px] border-[#eff3f8] pointer-events-none -mr-8 sm:-mr-12 z-0">
+              </div>
+              <!-- Floating Golden Accent Circle -->
+              <div
+                class="absolute right-8 md:right-12 top-[26%] w-5 h-5 md:w-6 md:h-6 rounded-full border-2 border-[#b89130] bg-surface z-10">
+              </div>
+
+              <!-- Content Inside Left Badge -->
+              <div class="relative z-10 max-w-sm">
+                <span class="font-bold text-xs uppercase tracking-[0.25em] text-[#b89130] block mb-2">TRUSTED
+                  SINCE</span>
                 <div
-                  class="absolute bottom-6 left-6 right-6 p-space-md bg-primary-container/95 backdrop-blur-md rounded shadow-lg text-on-primary">
-                  <div class="flex items-center gap-2 mb-1">
-                    <span class="w-2 h-2 rounded-full bg-secondary"></span>
-                    <span
-                      class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">Institutional
-                      Mandate</span>
-                  </div>
-                  <p class="font-body-sm text-body-sm italic text-surface-container-highest">"Delivering trust,
-                    precision, and enduring financial governance since inception."</p>
+                  class="font-serif text-7xl sm:text-8xl lg:text-[92px] font-bold text-[#0b1c30] tracking-tight leading-none mb-3">
+                  18+</div>
+                <div
+                  class="font-bold text-xs sm:text-[13px] tracking-[0.2em] text-[#0b1c30] uppercase leading-relaxed mb-4">
+                  YEARS OF<br>
+                  PROFESSIONAL<br>
+                  EXCELLENCE
                 </div>
-                <!-- Founding Year Badge -->
-                <div
-                  class="absolute top-4 right-4 bg-secondary text-on-secondary px-3 py-1.5 rounded shadow font-label-md text-label-md uppercase tracking-widest font-bold">
-                  Est. Practice
+
+                <div class="w-12 h-[2px] bg-[#b89130] mb-5"></div>
+
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-8">
+                  Built on trust, driven by expertise and committed to creating meaningful value for our clients.
+                </p>
+
+                <div class="flex items-center gap-3 text-[11px] sm:text-xs font-bold tracking-[0.2em] text-[#0b1c30]">
+                  <span>PEOPLE</span>
+                  <span class="text-outline-variant font-normal">|</span>
+                  <span>PROCESS</span>
+                  <span class="text-outline-variant font-normal">|</span>
+                  <span>PROGRESS</span>
                 </div>
               </div>
             </div>
-            <!-- Right Column: Narrative & Stats -->
-            <div class="lg:col-span-7 flex flex-col justify-center">
-              <span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold mb-2">ABOUT
-                RAPID SERVICES HUB</span>
-              <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-bold mb-space-md">
-                Expertise That Goes Beyond Numbers.
+
+            <!-- Right Column: Narrative, 4 Pillars, Quote & Stats -->
+            <div class="lg:col-span-7 flex flex-col justify-center relative z-10">
+              <!-- Subtitle Eyebrow -->
+              <div class="flex items-center gap-2.5 mb-3">
+                <span class="w-8 h-[2px] bg-[#b89130]"></span>
+                <span class="font-bold text-xs uppercase tracking-[0.2em] text-[#b89130]">ABOUT RAPID SERVICES
+                  HUB</span>
+              </div>
+
+              <!-- Main Heading with Gold Dot -->
+              <h2
+                class="font-serif text-3xl sm:text-4xl lg:text-[42px] font-bold text-[#0b1c30] tracking-tight leading-[1.2] mb-4">
+                Expertise That Goes Beyond Numbers<span class="text-[#b89130]">.</span>
               </h2>
-              <p class="font-body-lg text-body-lg text-on-surface-variant mb-space-md leading-relaxed">
-                Rapid Services Hub is a multi-disciplinary Chartered Accountancy and advisory practice headquartered in
-                Singapore with representations across central financial hubs. We fuse rigorous analytical auditing with
-                forward-looking corporate strategy.
+
+              <!-- Description -->
+              <p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
+                Rapid Services Hub is a multidisciplinary Chartered Accountancy and advisory practice, committed to
+                helping businesses and individuals navigate their financial journey with clarity and confidence. We
+                combine deep domain expertise with a practical, solution-oriented approach to deliver reliable advice
+                and long-term value.
               </p>
-              <p class="font-body-md text-body-md text-on-surface-variant mb-space-lg leading-relaxed">
-                Our teams partner with fast-growing startups, manufacturing enterprises, high-net-worth families, and
-                cross-border conglomerates. We handle regulatory audits, intricate GST litigations, transfer pricing,
-                and comprehensive transaction structuring with precision.
-              </p>
-              <!-- Highlight Statement Block with Gold Accent Left Bar -->
-              <div class="p-space-md bg-surface-container-low rounded mb-space-xl">
-                <div class="pl-4 py-1 bg-surface-container-low">
-                  <p class="font-title-md text-title-md text-primary font-bold leading-snug">
-                    “We simplify complex financial matters so our clients can focus on what matters most: growing with
-                    confidence.”
-                  </p>
+
+              <!-- 4 Feature Badges / Pillars -->
+              <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
+                <!-- Pillar 1: Integrity First -->
+                <div class="flex items-center gap-3">
+                  <div
+                    class="w-11 h-11 rounded-full bg-[#faf5e8] border border-[#e8dcb9] flex items-center justify-center text-[#b89130] shrink-0 shadow-sm">
+                    <span class="material-symbols-outlined text-[20px]">shield</span>
+                  </div>
+                  <div class="text-xs font-semibold text-[#0b1c30] leading-tight">Integrity<br>First</div>
+                </div>
+
+                <!-- Pillar 2: Client Centric -->
+                <div class="flex items-center gap-3">
+                  <div
+                    class="w-11 h-11 rounded-full bg-[#faf5e8] border border-[#e8dcb9] flex items-center justify-center text-[#b89130] shrink-0 shadow-sm">
+                    <span class="material-symbols-outlined text-[20px]">groups</span>
+                  </div>
+                  <div class="text-xs font-semibold text-[#0b1c30] leading-tight">Client<br>Centric</div>
+                </div>
+
+                <!-- Pillar 3: Practical Solutions -->
+                <div class="flex items-center gap-3">
+                  <div
+                    class="w-11 h-11 rounded-full bg-[#faf5e8] border border-[#e8dcb9] flex items-center justify-center text-[#b89130] shrink-0 shadow-sm">
+                    <span class="material-symbols-outlined text-[20px]">trending_up</span>
+                  </div>
+                  <div class="text-xs font-semibold text-[#0b1c30] leading-tight">Practical<br>Solutions</div>
+                </div>
+
+                <!-- Pillar 4: Long-Term Partnerships -->
+                <div class="flex items-center gap-3">
+                  <div
+                    class="w-11 h-11 rounded-full bg-[#faf5e8] border border-[#e8dcb9] flex items-center justify-center text-[#b89130] shrink-0 shadow-sm">
+                    <span class="material-symbols-outlined text-[20px]">handshake</span>
+                  </div>
+                  <div class="text-xs font-semibold text-[#0b1c30] leading-tight">Long-Term<br>Partnerships</div>
                 </div>
               </div>
+
+              <!-- Quote Box with Gold Left Accent Border -->
+              <div class="p-4 sm:p-5 bg-[#eef3fa]/85 border-l-[3px] border-[#b89130] rounded-r-lg mb-6">
+                <p class="font-body-md text-body-md font-medium text-[#0b1c30] leading-relaxed">
+                  “We simplify complex financial matters so our clients can focus on what matters most: growing with
+                  confidence.”
+                </p>
+              </div>
+
               <!-- Key Statistics / Proof Markers -->
-              <div class="grid grid-cols-3 gap-space-md mb-space-lg">
-                <div class="p-space-sm bg-surface-container-lowest rounded shadow-sm">
-                  <span class="font-headline-md text-headline-md font-bold text-primary block">18+</span>
-                  <span class="font-body-sm text-body-sm text-on-surface-variant">Years Cumulative Leadership</span>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div
+                  class="p-4 sm:p-5 bg-surface-container-lowest rounded-lg border border-outline-variant/40 shadow-sm">
+                  <span class="font-serif text-2xl sm:text-3xl font-bold text-[#b89130] block mb-1">18+</span>
+                  <span class="font-body-sm text-body-sm text-on-surface-variant font-medium">Years Cumulative
+                    Leadership</span>
                 </div>
-                <div class="p-space-sm bg-surface-container-lowest rounded shadow-sm">
-                  <span class="font-headline-md text-headline-md font-bold text-primary block">99.4%</span>
-                  <span class="font-body-sm text-body-sm text-on-surface-variant">Annual Client Retention</span>
+                <div
+                  class="p-4 sm:p-5 bg-surface-container-lowest rounded-lg border border-outline-variant/40 shadow-sm">
+                  <span class="font-serif text-2xl sm:text-3xl font-bold text-[#b89130] block mb-1">99.4%</span>
+                  <span class="font-body-sm text-body-sm text-on-surface-variant font-medium">Annual Client
+                    Retention</span>
                 </div>
-                <div class="p-space-sm bg-surface-container-lowest rounded shadow-sm">
-                  <span class="font-headline-md text-headline-md font-bold text-secondary block">12+</span>
-                  <span class="font-body-sm text-body-sm text-on-surface-variant">Jurisdictions Advised</span>
+                <div
+                  class="p-4 sm:p-5 bg-surface-container-lowest rounded-lg border border-outline-variant/40 shadow-sm">
+                  <span class="font-serif text-2xl sm:text-3xl font-bold text-[#b89130] block mb-1">12+</span>
+                  <span class="font-body-sm text-body-sm text-on-surface-variant font-medium">Jurisdictions
+                    Advised</span>
                 </div>
               </div>
-              <a class="inline-flex items-center font-title-md text-title-md text-primary hover:text-secondary transition-colors group"
-                href="#contact">
-                Learn More About Our Heritage
-                <span
-                  class="material-symbols-outlined ml-1.5 group-hover:translate-x-1 transition-transform text-[18px]">arrow_forward</span>
-              </a>
             </div>
           </div>
         </div>
@@ -578,222 +614,326 @@
           </div>
         </div>
       </section>
-      <!-- OUR APPROACH (Horizontal Process Timeline 01 - 05) -->
-      <!-- OUR APPROACH / METHODOLOGY -->
-      <section class="relative w-full py-space-3xl overflow-hidden" id="approach" style="background-color: #faf8f3;">
-        <!-- Decorative circle flourish top-right -->
-        <div class="absolute top-0 right-0 w-72 h-72 pointer-events-none" aria-hidden="true">
-          <svg viewBox="0 0 280 280" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full opacity-10">
-            <circle cx="200" cy="80" r="120" stroke="#755b00" stroke-width="1.5"/>
-            <circle cx="200" cy="80" r="80" stroke="#755b00" stroke-width="1"/>
-            <circle cx="200" cy="80" r="40" stroke="#755b00" stroke-width="0.8"/>
-          </svg>
+      <!-- OUR APPROACH (Five-step advisory timeline) -->
+      <section class="w-full overflow-hidden bg-surface py-space-3xl relative" id="approach">
+        <div
+          class="pointer-events-none absolute -left-28 top-0 h-64 w-64 rounded-full border-[52px] border-surface-container-low opacity-60">
         </div>
-
-        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop relative z-10">
-
-          <!-- Header -->
-          <div class="text-center max-w-2xl mx-auto mb-16">
-            <!-- Eyebrow label with decorative lines -->
-            <div class="flex items-center justify-center gap-4 mb-5">
-              <div class="h-px w-12 bg-secondary opacity-60"></div>
-              <span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary font-bold">Our Approach</span>
-              <div class="h-px w-12 bg-secondary opacity-60"></div>
+        <div
+          class="pointer-events-none absolute -right-20 -top-20 h-52 w-52 rounded-full border-[38px] border-surface-container-low opacity-60">
+        </div>
+        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop relative">
+          <div class="text-center max-w-3xl mx-auto mb-14">
+            <div class="flex items-center justify-center gap-4 mb-space-sm">
+              <span class="h-px w-10 bg-secondary"></span>
+              <span
+                class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold">METHODOLOGY</span>
+              <span class="h-px w-10 bg-secondary"></span>
             </div>
-            <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-bold mb-4 leading-snug">
-              A Simple Approach to<br>Complex Financial Matters<span class="text-secondary">.</span>
+            <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-bold mb-space-xs">
+              A Simple Approach to Complex Financial Matters<span class="text-secondary">.</span>
             </h2>
-            <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-              We follow a structured, transparent and collaborative process to ensure<br class="hidden md:inline"> practical solutions and long-term value for our clients.
+            <p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">
+              Our systematic five-phase advisory protocol guarantees absolute transparency, adherence to regulatory
+              mandates, and measurable business peace of mind.
             </p>
           </div>
 
-          <!-- Timeline Steps -->
           <div class="relative">
-            <!-- Dashed connector line (desktop only) -->
-            <div class="hidden md:block absolute" style="top: 68px; left: calc(10% + 32px); right: calc(10% + 32px); height: 2px;">
-              <svg width="100%" height="4" xmlns="http://www.w3.org/2000/svg">
-                <line x1="0" y1="2" x2="100%" y2="2" stroke="#b5a06a" stroke-width="1.5" stroke-dasharray="6 5"/>
-                <!-- Gold dots at quarter intervals -->
-                <circle cx="25%" cy="2" r="4" fill="#755b00"/>
-                <circle cx="50%" cy="2" r="4" fill="#755b00"/>
-                <circle cx="75%" cy="2" r="4" fill="#755b00"/>
-              </svg>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
-
-              <!-- Step 01: Understand (dark filled) -->
-              <div class="flex flex-col items-center text-center relative">
-                <span class="font-body-sm text-body-sm font-semibold mb-3" style="color: #c9bfa0;">01</span>
-                <div class="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-md z-10 relative" style="background-color: #0b1f3a;">
-                  <svg class="w-7 h-7" fill="none" stroke="#fed255" stroke-width="1.6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
-                  </svg>
+            <!-- The dotted path is intentionally desktop-only; each step becomes a clean vertical sequence on mobile. -->
+            <svg aria-hidden="true"
+              class="hidden lg:block absolute left-[7%] right-[2%] top-14 h-24 w-[91%] overflow-visible"
+              viewBox="0 0 1000 100" preserveAspectRatio="none">
+              <path d="M0 42 C95 8 140 88 250 55 S390 13 500 56 S645 88 750 48 S895 12 1000 28" fill="none"
+                stroke="#a47709" stroke-width="1.4" stroke-dasharray="3 5" />
+              <path d="M1000 28 l-11 -5 M1000 28 l-9 8" fill="none" stroke="#a47709" stroke-width="1.4" />
+            </svg>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-4">
+              <article class="relative z-10 text-center group">
+                <span
+                  class="absolute left-[calc(50%-58px)] -top-5 font-headline-lg text-headline-lg font-bold text-secondary/20">01</span>
+                <div
+                  class="mx-auto mb-5 h-24 w-24 rounded-full border-[10px] border-surface-container-low bg-primary-container text-secondary shadow-[0_10px_26px_rgba(11,31,58,0.12)] flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-1">
+                  <span class="material-symbols-outlined text-[38px]">group</span>
                 </div>
-                <!-- Down arrow -->
-                <svg class="w-4 h-4 mb-3" fill="none" stroke="#0b1f3a" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-                <h3 class="font-title-md text-title-md font-bold text-primary mb-2">Understand</h3>
-                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
-                  We understand your goals, challenges and specific financial requirements.
-                </p>
-                <div class="h-0.5 w-8 rounded" style="background-color: #b5a06a;"></div>
-              </div>
-
-              <!-- Step 02: Analyse (light outlined) -->
-              <div class="flex flex-col items-center text-center relative">
-                <span class="font-body-sm text-body-sm font-semibold mb-3" style="color: #c9bfa0;">02</span>
-                <div class="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-sm z-10 relative border-2" style="background-color: #f5efe0; border-color: #c9b06a;">
-                  <svg class="w-7 h-7" fill="none" stroke="#755b00" stroke-width="1.6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/>
-                  </svg>
+                <span
+                  class="mx-auto block h-6 w-px bg-secondary/80 relative after:absolute after:-bottom-1 after:-left-[3px] after:h-2 after:w-2 after:rounded-full after:bg-secondary"></span>
+                <h3 class="font-title-md text-title-md font-bold text-primary mt-5 mb-2">Understand</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed max-w-[210px] mx-auto">We
+                  understand your goals, operational challenges, and distinct financial requirements.</p>
+                <span class="block h-0.5 w-12 bg-secondary mx-auto mt-5"></span>
+              </article>
+              <article class="relative z-10 text-center group lg:pt-4">
+                <span
+                  class="absolute left-[calc(50%-58px)] -top-1 font-headline-lg text-headline-lg font-bold text-secondary/20">02</span>
+                <div
+                  class="mx-auto mb-5 h-24 w-24 rounded-full border-[10px] border-surface-container-low bg-secondary-fixed text-secondary shadow-[0_10px_26px_rgba(11,31,58,0.10)] flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-1">
+                  <span class="material-symbols-outlined text-[38px]">fact_check</span>
                 </div>
-                <svg class="w-4 h-4 mb-3" fill="none" stroke="#0b1f3a" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-                <h3 class="font-title-md text-title-md font-bold text-primary mb-2">Analyse</h3>
-                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
-                  We assess your current financial position and compliance status.
-                </p>
-                <div class="h-0.5 w-8 rounded" style="background-color: #b5a06a;"></div>
-              </div>
-
-              <!-- Step 03: Advise (dark filled) -->
-              <div class="flex flex-col items-center text-center relative">
-                <span class="font-body-sm text-body-sm font-semibold mb-3" style="color: #c9bfa0;">03</span>
-                <div class="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-md z-10 relative" style="background-color: #0b1f3a;">
-                  <svg class="w-7 h-7" fill="none" stroke="#fed255" stroke-width="1.6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
-                  </svg>
+                <span
+                  class="mx-auto block h-6 w-px bg-secondary/80 relative after:absolute after:-bottom-1 after:-left-[3px] after:h-2 after:w-2 after:rounded-full after:bg-secondary"></span>
+                <h3 class="font-title-md text-title-md font-bold text-primary mt-5 mb-2">Analyse</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed max-w-[210px] mx-auto">We
+                  assess your current financial standing and past compliance position for statutory health.</p>
+                <span class="block h-0.5 w-12 bg-secondary mx-auto mt-5"></span>
+              </article>
+              <article class="relative z-10 text-center group">
+                <span
+                  class="absolute left-[calc(50%-58px)] -top-5 font-headline-lg text-headline-lg font-bold text-secondary/20">03</span>
+                <div
+                  class="mx-auto mb-5 h-24 w-24 rounded-full border-[10px] border-surface-container-low bg-primary-container text-secondary shadow-[0_10px_26px_rgba(11,31,58,0.12)] flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-1">
+                  <span class="material-symbols-outlined text-[38px]">lightbulb</span>
                 </div>
-                <svg class="w-4 h-4 mb-3" fill="none" stroke="#0b1f3a" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-                <h3 class="font-title-md text-title-md font-bold text-primary mb-2">Advise</h3>
-                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
-                  We provide practical, defensible and transparent recommendations.
-                </p>
-                <div class="h-0.5 w-8 rounded" style="background-color: #b5a06a;"></div>
-              </div>
-
-              <!-- Step 04: Execute (light outlined) -->
-              <div class="flex flex-col items-center text-center relative">
-                <span class="font-body-sm text-body-sm font-semibold mb-3" style="color: #c9bfa0;">04</span>
-                <div class="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-sm z-10 relative border-2" style="background-color: #f5efe0; border-color: #c9b06a;">
-                  <svg class="w-7 h-7" fill="none" stroke="#755b00" stroke-width="1.6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
-                  </svg>
+                <span
+                  class="mx-auto block h-6 w-px bg-secondary/80 relative after:absolute after:-bottom-1 after:-left-[3px] after:h-2 after:w-2 after:rounded-full after:bg-secondary"></span>
+                <h3 class="font-title-md text-title-md font-bold text-primary mt-5 mb-2">Advise</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed max-w-[210px] mx-auto">We
+                  provide practical, defensible, and fully transparent recommendations.</p>
+                <span class="block h-0.5 w-12 bg-secondary mx-auto mt-5"></span>
+              </article>
+              <article class="relative z-10 text-center group lg:pt-4">
+                <span
+                  class="absolute left-[calc(50%-58px)] -top-1 font-headline-lg text-headline-lg font-bold text-secondary/20">04</span>
+                <div
+                  class="mx-auto mb-5 h-24 w-24 rounded-full border-[10px] border-surface-container-low bg-secondary-fixed text-secondary shadow-[0_10px_26px_rgba(11,31,58,0.10)] flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-1">
+                  <span class="material-symbols-outlined text-[38px]">settings</span>
                 </div>
-                <svg class="w-4 h-4 mb-3" fill="none" stroke="#0b1f3a" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-                <h3 class="font-title-md text-title-md font-bold text-primary mb-2">Execute</h3>
-                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
-                  We help implement the required financial workflows and complete statutory filings.
-                </p>
-                <div class="h-0.5 w-8 rounded" style="background-color: #b5a06a;"></div>
-              </div>
-
-              <!-- Step 05: Support (dark filled) -->
-              <div class="flex flex-col items-center text-center relative">
-                <span class="font-body-sm text-body-sm font-semibold mb-3" style="color: #c9bfa0;">05</span>
-                <div class="w-16 h-16 rounded-full flex items-center justify-center mb-4 shadow-md z-10 relative" style="background-color: #0b1f3a;">
-                  <svg class="w-7 h-7" fill="none" stroke="#fed255" stroke-width="1.6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
-                  </svg>
+                <span
+                  class="mx-auto block h-6 w-px bg-secondary/80 relative after:absolute after:-bottom-1 after:-left-[3px] after:h-2 after:w-2 after:rounded-full after:bg-secondary"></span>
+                <h3 class="font-title-md text-title-md font-bold text-primary mt-5 mb-2">Execute</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed max-w-[210px] mx-auto">We
+                  help implement the required financial workflows and complete statutory filings.</p>
+                <span class="block h-0.5 w-12 bg-secondary mx-auto mt-5"></span>
+              </article>
+              <article class="relative z-10 text-center group">
+                <span
+                  class="absolute left-[calc(50%-58px)] -top-5 font-headline-lg text-headline-lg font-bold text-secondary/20">05</span>
+                <div
+                  class="mx-auto mb-5 h-24 w-24 rounded-full border-[10px] border-surface-container-low bg-primary-container text-secondary shadow-[0_10px_26px_rgba(11,31,58,0.12)] flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-1">
+                  <span class="material-symbols-outlined text-[38px]">trending_up</span>
                 </div>
-                <svg class="w-4 h-4 mb-3" fill="none" stroke="#0b1f3a" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
-                <h3 class="font-title-md text-title-md font-bold text-primary mb-2">Support</h3>
-                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
-                  We remain actively available as your business and fiscal needs continuously evolve.
-                </p>
-                <div class="h-0.5 w-8 rounded" style="background-color: #b5a06a;"></div>
-              </div>
-
+                <span
+                  class="mx-auto block h-6 w-px bg-secondary/80 relative after:absolute after:-bottom-1 after:-left-[3px] after:h-2 after:w-2 after:rounded-full after:bg-secondary"></span>
+                <h3 class="font-title-md text-title-md font-bold text-primary mt-5 mb-2">Support</h3>
+                <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed max-w-[210px] mx-auto">We
+                  remain actively available as your business and fiscal needs continuously evolve.</p>
+                <span class="block h-0.5 w-12 bg-secondary mx-auto mt-5"></span>
+              </article>
             </div>
           </div>
-
-          <!-- Closing tagline -->
-          <div class="mt-14 flex items-center justify-center gap-6">
-            <div class="h-px flex-1 max-w-xs" style="background: linear-gradient(to right, transparent, #b5a06a);"></div>
-            <p class="font-body-lg text-body-lg italic font-medium" style="color: #755b00; font-family: Georgia, serif;">Your Goals. Our Guidance. A Stronger Tomorrow.</p>
-            <div class="h-px flex-1 max-w-xs" style="background: linear-gradient(to left, transparent, #b5a06a);"></div>
-          </div>
-
         </div>
       </section>
       <!-- TEAM SECTION -->
-      <section class="w-full py-space-3xl bg-surface" id="team">
-        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop">
-          <div class="text-center max-w-2xl mx-auto mb-space-2xl">
-            <span
-              class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold mb-2 block">LEADERSHIP</span>
-            <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-bold mb-space-xs">
-              Meet the People Behind the Expertise.
+      <section class="w-full py-space-3xl bg-surface relative overflow-hidden" id="team">
+        <!-- Subtle decorative background gradients -->
+        <div class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-gradient-to-br from-[#f5eedc]/50 to-transparent pointer-events-none"></div>
+        <div class="absolute -bottom-32 -right-32 w-96 h-96 rounded-full bg-gradient-to-tl from-[#e5edf7]/60 to-transparent pointer-events-none"></div>
+
+        <!-- Left Side Vertical Callout Accent -->
+        <div class="hidden xl:flex items-center gap-3 absolute left-8 lg:left-14 top-28 select-none">
+          <div class="w-[2px] h-14 bg-[#b89130]"></div>
+          <div class="text-[10px] font-bold tracking-[0.22em] text-slate-400 uppercase leading-snug">
+            OUR TEAM<br>YOUR<br>ADVANTAGE
+          </div>
+        </div>
+
+        <!-- Right Side Watermark / Script -->
+        <div class="hidden lg:block absolute right-8 xl:right-16 top-16 pointer-events-none select-none text-right -rotate-6">
+          <span class="font-script text-4xl xl:text-5xl text-[#dfcfab]/60 block leading-tight font-bold">People<br>Drive<br>Progress</span>
+        </div>
+
+        <div class="max-w-[1320px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin-desktop relative z-10">
+          <!-- Section Header -->
+          <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-14">
+            <div class="flex items-center justify-center gap-3 mb-3">
+              <span class="w-10 h-[1.5px] bg-[#b89130]"></span>
+              <span class="font-bold text-xs uppercase tracking-[0.25em] text-[#b89130]">OUR TEAM</span>
+              <span class="w-10 h-[1.5px] bg-[#b89130]"></span>
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-[44px] font-bold text-[#0b1c30] tracking-tight leading-[1.18] mb-3">
+              Meet the People Behind<br class="hidden sm:inline"> the Expertise<span class="text-[#b89130]">.</span>
             </h2>
-            <p class="font-body-md text-body-md text-on-surface-variant">
-              Qualified Chartered Accountants with decades of institutional advisory experience, leading every client
-              mandate directly.
+            <p class="font-body-md text-body-md text-on-surface-variant max-w-xl mx-auto leading-relaxed">
+              A team of qualified Chartered Accountants and professionals with decades of institutional advisory experience, leading every client mandate with integrity and insight.
             </p>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter-desktop max-w-4xl mx-auto">
-            <!-- Partner 1: Rajesh Sharma -->
-            <div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-lg group flex flex-col">
-              <div class="overflow-hidden h-72 bg-surface-container">
-                <img alt="Rajesh Sharma, FCA - Senior Managing Partner"
-                  class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOHgDSMLBfeadseWVmAwLFUr9mDPHgVpHDeb1W9LDOFf_IIwXgzSYrRHHpS56d2G7QRBj8pXkZkDrJ52vhLl61Ps8zRyBHbKSVYUd1m9vm6ss9BZplE6vDwWdEdxpgIBDgHPTwb4lWXThaI5gBIJ0pkPrfH8YZGkzdLQ7i8ZRH24_ICqBHCHtKVJpD_-5bK_uZEbl5iejj0pZ-Cdy0msObUwB2p3If-HxgPlJcODSqVEpKEO7y4Oev">
-              </div>
-              <div class="p-space-lg flex-1 flex flex-col justify-between">
-                <div>
-                  <div class="flex items-center justify-between mb-1">
-                    <h3 class="font-headline-sm text-headline-sm font-bold text-primary">Rajesh Sharma, FCA</h3>
-                    <span
-                      class="font-label-sm text-label-sm text-secondary bg-surface-container px-2 py-0.5 rounded font-bold uppercase tracking-wider">Fellow
-                      ICAI</span>
+
+          <!-- Carousel Container with Side Navigation Buttons -->
+          <div class="relative max-w-6xl mx-auto px-2 sm:px-8">
+            <!-- Prev Button -->
+            <button id="teamPrevBtn" aria-label="Previous Team Member"
+              class="absolute -left-2 sm:-left-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white border border-slate-200/90 shadow-[0_4px_16px_rgba(11,28,48,0.08)] flex items-center justify-center text-[#0b1c30] hover:text-[#b89130] hover:border-[#b89130]/60 hover:shadow-md transition-all z-30 cursor-pointer">
+              <span class="material-symbols-outlined text-[24px]">chevron_left</span>
+            </button>
+
+            <!-- Carousel Viewport -->
+            <div class="overflow-hidden py-4 px-1" id="teamCarouselViewport">
+              <div id="teamCarouselTrack"
+                class="flex transition-transform duration-500 ease-out gap-6 items-stretch">
+                
+                <!-- Card 1: Rajesh Sharma, FCA -->
+                <div class="team-card w-full flex-shrink-0 md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] bg-white rounded-2xl p-6 sm:p-7 border border-slate-100 shadow-[0_4px_20px_rgba(11,28,48,0.04)] hover:shadow-[0_12px_32px_rgba(11,28,48,0.08)] transition-all duration-300 flex flex-col justify-between cursor-pointer"
+                  data-index="0">
+                  <div>
+                    <!-- Top Avatar & Badge Row -->
+                    <div class="flex items-center justify-between mb-4">
+                      <div class="w-14 h-14 rounded-full bg-[#071d36] flex items-center justify-center text-[#d4af37] font-serif font-bold text-xl tracking-wider shadow-sm">
+                        RS
+                      </div>
+                      <span class="px-2.5 py-1 rounded bg-[#faf5e8] text-[#9b7824] text-[11px] font-bold uppercase tracking-wider">
+                        FELLOW ICAI
+                      </span>
+                    </div>
+
+                    <!-- Name & Designation -->
+                    <h3 class="font-serif text-xl sm:text-2xl font-bold text-[#0b1c30] mt-4 mb-1">
+                      Rajesh Sharma, FCA
+                    </h3>
+                    <p class="text-xs sm:text-sm font-semibold text-[#b89130]">
+                      Senior Managing Partner
+                    </p>
+                    <div class="w-8 h-[2px] bg-[#b89130] my-3"></div>
+
+                    <!-- Bio -->
+                    <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-5">
+                      18+ years of expertise in Corporate Taxation, Statutory Audits, and M&amp;A Due Diligence. Advisor to high-growth tech platforms and established mid-market enterprises across India.
+                    </p>
+
+                    <!-- Tags -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+                      <span class="px-3 py-1 bg-[#eff4fa] text-[#4d6282] rounded text-xs font-medium">Corporate Tax</span>
+                      <span class="px-3 py-1 bg-[#eff4fa] text-[#4d6282] rounded text-xs font-medium">Audit &amp; Assurance</span>
+                      <span class="px-3 py-1 bg-[#eff4fa] text-[#4d6282] rounded text-xs font-medium">M&amp;A Advisory</span>
+                    </div>
                   </div>
-                  <p class="font-title-md text-title-md text-secondary font-semibold mb-space-sm">Senior Managing
-                    Partner</p>
-                  <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
-                    18+ years of expertise in Corporate Taxation, Statutory Audits, and M&amp;A Due Diligence. Advisor
-                    to high-growth tech platforms and established mid-market enterprises across western India.
-                  </p>
+
+                  <!-- Footer -->
+                  <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+                    <span class="text-slate-400 font-medium">Practicing CA Reg: #054892</span>
+                    <a href="#contact" class="font-bold text-[#0b1c30] hover:text-[#b89130] inline-flex items-center gap-1 transition-colors group">
+                      View Profile <span class="material-symbols-outlined text-[16px] group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+                    </a>
+                  </div>
                 </div>
-                <div
-                  class="pt-space-sm border-t border-outline-variant/30 flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
-                  <span class="">Practicing CA Reg: #054892</span>
-                  <a class="text-primary hover:text-secondary font-title-md inline-flex items-center" href="#contact">
-                    Contact <span class="material-symbols-outlined ml-1 text-[16px]">mail</span>
-                  </a>
+
+                <!-- Card 2: Pooja Mehta, ACA -->
+                <div class="team-card w-full flex-shrink-0 md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] bg-white rounded-2xl p-6 sm:p-7 border border-slate-100 shadow-[0_4px_20px_rgba(11,28,48,0.04)] hover:shadow-[0_12px_32px_rgba(11,28,48,0.08)] transition-all duration-300 flex flex-col justify-between cursor-pointer"
+                  data-index="1">
+                  <div>
+                    <!-- Top Avatar & Badge Row -->
+                    <div class="flex items-center justify-between mb-4">
+                      <div class="w-14 h-14 rounded-full bg-[#f4ebd9] flex items-center justify-center text-[#8f6e24] font-serif font-bold text-xl tracking-wider shadow-sm">
+                        PM
+                      </div>
+                      <span class="px-2.5 py-1 rounded bg-[#eff4fa] text-[#4d6282] text-[11px] font-bold uppercase tracking-wider">
+                        MEMBER ICAI
+                      </span>
+                    </div>
+
+                    <!-- Name & Designation -->
+                    <h3 class="font-serif text-xl sm:text-2xl font-bold text-[#0b1c30] mt-4 mb-1">
+                      Pooja Mehta, ACA
+                    </h3>
+                    <p class="text-xs sm:text-sm font-semibold text-[#b89130]">
+                      Partner — Regulatory &amp; International Tax
+                    </p>
+                    <div class="w-8 h-[2px] bg-[#b89130] my-3"></div>
+
+                    <!-- Bio -->
+                    <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-5">
+                      12+ years of institutional advisory experience. Focused on cross-border transactions, transfer pricing defense, complex GST litigations, and FEMA compliances.
+                    </p>
+
+                    <!-- Tags -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+                      <span class="px-3 py-1 bg-[#eff4fa] text-[#4d6282] rounded text-xs font-medium">International Tax</span>
+                      <span class="px-3 py-1 bg-[#eff4fa] text-[#4d6282] rounded text-xs font-medium">GST &amp; Indirect Tax</span>
+                      <span class="px-3 py-1 bg-[#eff4fa] text-[#4d6282] rounded text-xs font-medium">Transfer Pricing</span>
+                    </div>
+                  </div>
+
+                  <!-- Footer -->
+                  <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+                    <span class="text-slate-400 font-medium">Practicing CA Reg: #078120</span>
+                    <a href="#contact" class="font-bold text-[#0b1c30] hover:text-[#b89130] inline-flex items-center gap-1 transition-colors group">
+                      View Profile <span class="material-symbols-outlined text-[16px] group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+                    </a>
+                  </div>
                 </div>
+
+                <!-- Card 3: Amit Kapoor, ACA -->
+                <div class="team-card w-full flex-shrink-0 md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] bg-white rounded-2xl p-6 sm:p-7 border border-slate-100 shadow-[0_4px_20px_rgba(11,28,48,0.04)] hover:shadow-[0_12px_32px_rgba(11,28,48,0.08)] transition-all duration-300 flex flex-col justify-between cursor-pointer"
+                  data-index="2">
+                  <div>
+                    <!-- Top Avatar & Badge Row -->
+                    <div class="flex items-center justify-between mb-4">
+                      <div class="w-14 h-14 rounded-full bg-[#071d36] flex items-center justify-center text-[#d4af37] font-serif font-bold text-xl tracking-wider shadow-sm">
+                        AK
+                      </div>
+                      <span class="px-2.5 py-1 rounded bg-[#eff4fa] text-[#4d6282] text-[11px] font-bold uppercase tracking-wider">
+                        MEMBER ICAI
+                      </span>
+                    </div>
+
+                    <!-- Name & Designation -->
+                    <h3 class="font-serif text-xl sm:text-2xl font-bold text-[#0b1c30] mt-4 mb-1">
+                      Amit Kapoor, ACA
+                    </h3>
+                    <p class="text-xs sm:text-sm font-semibold text-[#b89130]">
+                      Partner — Assurance &amp; Risk Advisory
+                    </p>
+                    <div class="w-8 h-[2px] bg-[#b89130] my-3"></div>
+
+                    <!-- Bio -->
+                    <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-5">
+                      10+ years of experience in statutory audits, internal audits, risk advisory and financial reporting. Works closely with manufacturing, real estate and financial services clients.
+                    </p>
+
+                    <!-- Tags -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+                      <span class="px-3 py-1 bg-[#eff4fa] text-[#4d6282] rounded text-xs font-medium">Audit &amp; Assurance</span>
+                      <span class="px-3 py-1 bg-[#eff4fa] text-[#4d6282] rounded text-xs font-medium">Risk Advisory</span>
+                      <span class="px-3 py-1 bg-[#eff4fa] text-[#4d6282] rounded text-xs font-medium">Financial Reporting</span>
+                    </div>
+                  </div>
+
+                  <!-- Footer -->
+                  <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+                    <span class="text-slate-400 font-medium">Practicing CA Reg: #091745</span>
+                    <a href="#contact" class="font-bold text-[#0b1c30] hover:text-[#b89130] inline-flex items-center gap-1 transition-colors group">
+                      View Profile <span class="material-symbols-outlined text-[16px] group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+                    </a>
+                  </div>
+                </div>
+
               </div>
             </div>
-            <!-- Partner 2: Pooja Mehta -->
-            <div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-lg group flex flex-col">
-              <div class="overflow-hidden h-72 bg-surface-container">
-                <img alt="Pooja Mehta, ACA - Partner Regulatory Compliance"
-                  class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbFIHL_vSjLBs1__SXr959OelW-SUayIrnsknCoURMkCxQzttztIpsBcKTfaA77JkD34LvtAzOLH12LlZ0Wt_b5dOT20M645H0tMy8l6IE7ztJIe0i8mQpIBp_4RYPyqIK655RqCR5NjLiXQA_gJDwg2UAuUYJOwetSB5xxi_tklHMeN2B1NMSEKdcTL1PAkS8EAnBlNKHwF79ZG8B0py8ue5OVmP-VSg1pfr0-IQmq-iVVHlxXOjX">
-              </div>
-              <div class="p-space-lg flex-1 flex flex-col justify-between">
-                <div>
-                  <div class="flex items-center justify-between mb-1">
-                    <h3 class="font-headline-sm text-headline-sm font-bold text-primary">Pooja Mehta, ACA</h3>
-                    <span
-                      class="font-label-sm text-label-sm text-secondary bg-surface-container px-2 py-0.5 rounded font-bold uppercase tracking-wider">Member
-                      ICAI</span>
-                  </div>
-                  <p class="font-title-md text-title-md text-secondary font-semibold mb-space-sm">Partner — Regulatory
-                    &amp; International Tax</p>
-                  <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
-                    12+ years of institutional advisory experience. Former Big 4 tax specialist focused on cross-border
-                    transactions, transfer pricing defense, complex GST litigations, and FEMA compliances.
-                  </p>
-                </div>
-                <div
-                  class="pt-space-sm border-t border-outline-variant/30 flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
-                  <span class="">Practicing CA Reg: #078120</span>
-                  <a class="text-primary hover:text-secondary font-title-md inline-flex items-center" href="#contact">
-                    Contact <span class="material-symbols-outlined ml-1 text-[16px]">mail</span>
-                  </a>
-                </div>
-              </div>
+
+            <!-- Next Button -->
+            <button id="teamNextBtn" aria-label="Next Team Member"
+              class="absolute -right-2 sm:-right-4 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white border border-slate-200/90 shadow-[0_4px_16px_rgba(11,28,48,0.08)] flex items-center justify-center text-[#0b1c30] hover:text-[#b89130] hover:border-[#b89130]/60 hover:shadow-md transition-all z-30 cursor-pointer">
+              <span class="material-symbols-outlined text-[24px]">chevron_right</span>
+            </button>
+          </div>
+
+          <!-- Carousel Dots Indicator -->
+          <div class="flex items-center justify-center gap-2.5 mt-8 mb-12" id="teamDots">
+            <button class="team-dot w-2.5 h-2.5 rounded-full bg-[#b89130] transition-all duration-300" data-dot="0" aria-label="Go to Slide 1"></button>
+            <button class="team-dot w-2.5 h-2.5 rounded-full bg-slate-300 hover:bg-slate-400 transition-all duration-300" data-dot="1" aria-label="Go to Slide 2"></button>
+            <button class="team-dot w-2.5 h-2.5 rounded-full bg-slate-300 hover:bg-slate-400 transition-all duration-300" data-dot="2" aria-label="Go to Slide 3"></button>
+          </div>
+
+          <!-- Bottom Quote Strip with Gold Quotes -->
+          <div class="max-w-4xl mx-auto flex items-center gap-4 px-4">
+            <div class="h-px flex-1 bg-slate-200/80"></div>
+            <div class="flex items-center gap-2.5 text-center shrink-0 px-2">
+              <span class="font-serif text-3xl text-[#b89130] leading-none select-none">“</span>
+              <p class="font-serif italic text-base sm:text-lg text-[#0b1c30] font-medium tracking-wide">
+                Diverse expertise. A shared commitment to your success.
+              </p>
+              <span class="font-serif text-3xl text-[#b89130] leading-none select-none">”</span>
             </div>
+            <div class="h-px flex-1 bg-slate-200/80"></div>
           </div>
         </div>
       </section>
@@ -803,7 +943,7 @@
           <div class="text-center max-w-2xl mx-auto mb-space-2xl">
             <span
               class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold mb-2 block">CLIENT
-              VOICES</span>
+              TESTIMONIES</span>
             <h2 class="font-headline-lg text-headline-lg text-primary tracking-tight font-bold mb-space-xs">
               Trusted by Clients. Proven Through Relationships.
             </h2>
@@ -1145,136 +1285,7 @@
         </div>
       </section>
       <!-- MICRO-INTERACTIONS SCRIPT -->
-      <script>
-        // Testimonial Data
-        const testimonials = [
-          {
-            quote: "Rapid Services Hub transformed our financial compliance during our Series A round. Their tax planning saved us months of rework.",
-            author: "Vikramaditya Sen",
-            role: "CEO, NexaPay Fintech"
-          },
-          {
-            quote: "Unrivaled expertise in GST and corporate restructuring. They are not just accountants, they are trusted board-level advisors.",
-            author: "Sunita Deshmukh",
-            role: "Director, AURA Engineering"
-          },
-          {
-            quote: "Transparent, proactive, and exceptionally prompt. Every compliance deadline has been met flawlessly for five consecutive years.",
-            author: "Arvind Singhania",
-            role: "Managing Director, Crestline Logistics"
-          }
-        ];
-
-        let currentTestimonial = 0;
-
-        function renderTestimonial() {
-          const q = document.getElementById("testimonialQuote");
-          const a = document.getElementById("testimonialAuthor");
-          const r = document.getElementById("testimonialRole");
-          const dots = document.querySelectorAll(".test-dot");
-
-          if (q && a && r) {
-            q.classList.add("opacity-0");
-            setTimeout(() => {
-              q.innerText = testimonials[currentTestimonial].quote;
-              a.innerText = testimonials[currentTestimonial].author;
-              r.innerText = testimonials[currentTestimonial].role;
-              q.classList.remove("opacity-0");
-            }, 150);
-          }
-
-          dots.forEach((dot, idx) => {
-            if (idx === currentTestimonial) {
-              dot.className = "test-dot w-3 h-3 rounded-full bg-secondary transition-all";
-            } else {
-              dot.className = "test-dot w-3 h-3 rounded-full bg-surface-container-highest hover:bg-secondary transition-all";
-            }
-          });
-        }
-
-        function nextTestimonial() {
-          currentTestimonial = (currentTestimonial + 1) % testimonials.length;
-          renderTestimonial();
-        }
-
-        function prevTestimonial() {
-          currentTestimonial = (currentTestimonial - 1 + testimonials.length) % testimonials.length;
-          renderTestimonial();
-        }
-
-        function setTestimonial(idx) {
-          currentTestimonial = idx;
-          renderTestimonial();
-        }
-
-        // FAQ Accordion
-        function toggleFaq(btn) {
-          const answer = btn.nextElementSibling;
-          const icon = btn.querySelector(".material-symbols-outlined");
-          const isOpen = answer.style.maxHeight && answer.style.maxHeight !== "0px";
-
-          // Close all
-          document.querySelectorAll(".faq-answer").forEach(el => el.style.maxHeight = "0px");
-          document.querySelectorAll("#faq .material-symbols-outlined").forEach(el => {
-            el.innerText = "add";
-            el.style.transform = "rotate(0deg)";
-          });
-
-          if (!isOpen) {
-            answer.style.maxHeight = answer.scrollHeight + "px";
-            icon.innerText = "remove";
-            icon.style.transform = "rotate(180deg)";
-          }
-        }
-
-        // Client Category Cards Selection
-        function selectClientCard(card) {
-          document.querySelectorAll(".client-card").forEach(c => {
-            c.classList.remove("bg-primary-container", "text-on-primary");
-            c.classList.add("bg-surface-container-lowest", "text-on-surface");
-            const title = c.querySelector("h3");
-            const desc = c.querySelector("p");
-            if (title) { title.classList.remove("text-on-primary"); title.classList.add("text-primary"); }
-            if (desc) { desc.classList.remove("text-surface-container-highest"); desc.classList.add("text-on-surface-variant"); }
-          });
-
-          card.classList.remove("bg-surface-container-lowest", "text-on-surface");
-          card.classList.add("bg-primary-container", "text-on-primary");
-          const title = card.querySelector("h3");
-          const desc = card.querySelector("p");
-          if (title) { title.classList.remove("text-primary"); title.classList.add("text-on-primary"); }
-          if (desc) { desc.classList.remove("text-on-surface-variant"); desc.classList.add("text-surface-container-highest"); }
-        }
-
-        // Form Handling Simulation
-        function handleFormSubmit(e) {
-          e.preventDefault();
-          const btn = document.getElementById("submitBtn");
-          const btnText = document.getElementById("btnText");
-          const btnIcon = document.getElementById("btnIcon");
-          const btnSpinner = document.getElementById("btnSpinner");
-          const banner = document.getElementById("formSuccessBanner");
-
-          btn.disabled = true;
-          btnText.innerText = "Transmitting Details...";
-          btnIcon.classList.add("hidden");
-          btnSpinner.classList.remove("hidden");
-
-          setTimeout(() => {
-            btn.disabled = false;
-            btnText.innerText = "Send Enquiry";
-            btnIcon.classList.remove("hidden");
-            btnSpinner.classList.add("hidden");
-
-            banner.classList.remove("hidden");
-            document.getElementById("advisoryForm").reset();
-
-            setTimeout(() => {
-              banner.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }, 100);
-          }, 1200);
-        }
-      </script>
+      <script src="script.js" data-page-interactions></script>
     </div>
   </main>
   <footer class="w-full bg-primary-container text-surface-bright border-t-2 border-secondary mt-space-3xl">
