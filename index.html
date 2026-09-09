@@ -1192,6 +1192,8 @@
             <!-- Right: Crisp White Elevated Form -->
             <div class="lg:col-span-7">
               <div class="bg-surface-container-lowest text-on-surface p-space-xl rounded-xl shadow-2xl relative">
+                <!-- Hidden iframe to capture submission without page redirect or CORS restriction -->
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
                 <!-- Form Success Banner (Hidden by default) -->
                 <div
                   class="hidden p-space-md mb-space-md bg-surface-container text-on-surface rounded flex items-start gap-3"
@@ -1203,7 +1205,17 @@
                       received. A senior advisor will contact you shortly.</p>
                   </div>
                 </div>
-                <form class="space-y-space-md" id="advisoryForm" onsubmit="handleFormSubmit(event)">
+                <form class="space-y-space-md" id="advisoryForm" action="https://formsubmit.co/madlynevie04@gmail.com" method="POST" target="hidden_iframe" onsubmit="handleFormSubmit(event)">
+                  <!-- FormSubmit Direct Routing and Formatting Config -->
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="hidden" name="_template" value="table">
+                  <input type="hidden" name="_subject" id="hiddenSubject" value="Financial Advisory Enquiry">
+                  <input type="hidden" name="sent by" id="hiddenSentBy" value="">
+                  <input type="hidden" name="subject" id="hiddenSubjectField" value="">
+                  <input type="hidden" name="query" id="hiddenQuery" value="">
+                  <input type="hidden" name="full name" id="hiddenFullName" value="">
+                  <input type="hidden" name="phone number" id="hiddenPhoneNumber" value="">
+                  <input type="hidden" name="message" id="hiddenMessage" value="">
                   <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
                     <!-- Name -->
                     <div>
@@ -1212,7 +1224,7 @@
                         for="fullName">Full Name *</label>
                       <input
                         class="w-full h-11 px-3 bg-surface text-on-surface rounded border border-outline-variant focus:outline-none focus:border-primary font-body-md text-body-md transition-colors"
-                        id="fullName" placeholder="e.g. Anand Mahindra" required="" type="text">
+                        id="fullName" name="fullName" placeholder="e.g. Anand Mahindra" required="" type="text">
                     </div>
                     <!-- Email -->
                     <div>
@@ -1221,7 +1233,7 @@
                         for="emailAddress">Email Address *</label>
                       <input
                         class="w-full h-11 px-3 bg-surface text-on-surface rounded border border-outline-variant focus:outline-none focus:border-primary font-body-md text-body-md transition-colors"
-                        id="emailAddress" placeholder="name@company.com" required="" type="email">
+                        id="emailAddress" name="emailAddress" placeholder="name@company.com" required="" type="email">
                     </div>
                   </div>
                   <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
@@ -1232,7 +1244,7 @@
                         for="phoneNumber">Phone Number *</label>
                       <input
                         class="w-full h-11 px-3 bg-surface text-on-surface rounded border border-outline-variant focus:outline-none focus:border-primary font-body-md text-body-md transition-colors"
-                        id="phoneNumber" placeholder="+91 98200 00000" required="" type="tel">
+                        id="phoneNumber" name="phoneNumber" placeholder="+91 98200 00000" required="" type="tel">
                     </div>
                     <!-- Query Type Dropdown -->
                     <div>
@@ -1241,7 +1253,7 @@
                         for="serviceType">Service / Query Type *</label>
                       <select
                         class="w-full h-11 px-3 bg-surface text-on-surface rounded border border-outline-variant focus:outline-none focus:border-primary font-body-md text-body-md transition-colors"
-                        id="serviceType" required="">
+                        id="serviceType" name="serviceType" required="">
                         <option disabled="" selected="" value="">Select practice area</option>
                         <option value="Audit &amp; Assurance">Audit &amp; Assurance</option>
                         <option value="Taxation &amp; GST">Taxation &amp; GST</option>
@@ -1258,7 +1270,7 @@
                       for="userQuery">Your Query / Details</label>
                     <textarea
                       class="w-full p-3 bg-surface text-on-surface rounded border border-outline-variant focus:outline-none focus:border-primary font-body-md text-body-md transition-colors resize-none"
-                      id="userQuery"
+                      id="userQuery" name="userQuery"
                       placeholder="Briefly describe your business structure, statutory requirement, or immediate tax milestone..."
                       rows="4"></textarea>
                   </div>
